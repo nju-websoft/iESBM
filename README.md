@@ -79,9 +79,6 @@ FSR results for several selected entity summarizers are presented in the followi
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>FER</td><td>0.721</td><td>0.915</td><td>0.774</td><td>1.295</td><td>2.478</td><td>1.016</td></tr>
-<tr>
 <td>RELIN</td><td>0.280</td><td>0.869</td><td>0.277</td><td>1.801</td><td>2.351</td><td>0.749</td></tr>
 <tr>
 <td>DIVERSUM</td><td>0.649</td><td>0.910</td><td>0.854</td><td>1.175</td><td>2.753</td><td>1.037</td></tr>
@@ -117,9 +114,6 @@ FSR results for several selected entity summarizers are presented in the followi
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>FER</td>
-<td>0.581</td><td>0.998</td><td>1.349</td><td>0.864</td><td>3.093</td><td>1.061</td></tr>
 <tr>
 <td>RELIN</td>
 <td>0.688</td><td>0.991</td><td>0.600</td><td>1.154</td><td>2.775</td><td>0.966</td></tr>
@@ -168,9 +162,6 @@ FSR results for several selected entity summarizers are presented in the followi
 </thead>
 <tbody>
 <tr>
-<td>FER</td>
-<td>0.821</td><td>1.012</td><td>1.148</td><td>0.958</td><td>1.699</td><td>1.016</td></tr>
-<tr>
 <td>RELIN</td>
 <td>0.911</td><td>1.028</td><td>0.652</td><td>1.123</td><td>1.473</td><td>0.761</td></tr>
 <tr>
@@ -217,9 +208,6 @@ FSR results for several selected entity summarizers are presented in the followi
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>FER</td>
-<td>0.742</td><td>0.906</td><td>0.772</td><td>1.291</td><td>2.080</td><td>1.002</td></tr>
 <tr>
 <td>RELIN</td>
 <td>0.392</td><td>0.879</td><td>0.374</td><td>1.655</td><td>2.015</td><td>0.872</td></tr>
@@ -268,9 +256,6 @@ FSR results for several selected entity summarizers are presented in the followi
 </thead>
 <tbody>
 <tr>
-<td>FER</td>
-<td>0.757</td><td>0.983</td><td>1.203</td><td>0.917</td><td>2.092</td><td>1.047</td></tr>
-<tr>
 <td>RELIN</td>
 <td>0.865</td><td>1.000</td><td>0.634</td><td>1.143</td><td>1.962</td><td>0.950</td></tr>
 <tr>
@@ -317,9 +302,6 @@ FSR results for several selected entity summarizers are presented in the followi
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>FER</td>
-<td>0.862</td><td>0.993</td><td>1.065</td><td>0.981</td><td>1.601</td><td>1.018</td></tr>
 <tr>
 <td>RELIN</td>
 <td>0.883</td><td>1.042</td><td>0.545</td><td>1.151</td><td>1.495</td><td>0.889</td></tr>
