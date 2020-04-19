@@ -351,9 +351,9 @@ FSR results for several selected entity summarizers are presented in the followi
 [6] Andreas Thalhammer, Nelia Lasierra, Achim Rettinger: LinkSUM: Using Link Analysis to Summarize Entity Data. ICWE 2016: 244-261.<br>
 [7] Hermann Kroll, Denis Nagel and Wolf-Tilo Balke: BAFREC: Balancing Frequency and Rarity for Entity Characterization in Linked Open Data. EYRE 2018.<br>
 [8] Eun-Kyung Kim and Key-Sun Choi: Entity Summarization Based on Formal Concept Analysis. EYRE 2018.<br>
-[9] Dongjun Wei, Shiyuan Gao, Yaxin Liu, Zhibing Liu and Longtao Huang: MPSUM: Entity Summarization with Predicate-based Matching. EYRE 2018.
+[9] Dongjun Wei, Shiyuan Gao, Yaxin Liu, Zhibing Liu and Longtao Huang: MPSUM: Entity Summarization with Predicate-based Matching. EYRE 2018.<br>
 [10] Dongjun Wei, Yaxin Liu, Fuqing Zhu, Liangjun Zhang, Wei Zhou, Jizhong Han and Songlin Hu: ESA: Entity Summarization with Attention. EYRE 2019.<br>
-[11] Qingxia Liu, Gong Cheng and Yuzhong Qu: DeepLENS: Deep Learning for Entity Summarization. arXiv preprint 2020. arXiv:2003.03736.
+[11] Qingxia Liu, Gong Cheng and Yuzhong Qu: DeepLENS: Deep Learning for Entity Summarization. arXiv preprint 2020. arXiv:2003.03736.<br>
 </p>
 
 # Contact
