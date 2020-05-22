@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/academicAdvisor> <http://dbpedia.org/resource/John_Stevens_Henslow>.
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/academicAdvisors> <http://dbpedia.org/resource/John_Stevens_Henslow>.
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/The_Mount,_Shrewsbury>.
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/The_Mount,_Shrewsbury>.
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/citizenship> <http://dbpedia.org/resource/British_Citizenship>.

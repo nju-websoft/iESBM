@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Bruce_Lee> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Bruce_Lee>.
-<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/Linda_Lee_Cadwell>.
-<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/property/deathPlace> <http://dbpedia.org/resource/Kowloon_Tong>.
-<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/ontology/occupation> <http://dbpedia.org/resource/Kung_Fu>.
-<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Fist_of_Fury>.

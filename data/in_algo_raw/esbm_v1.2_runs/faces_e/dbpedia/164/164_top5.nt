@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/headquarter> <http://dbpedia.org/resource/United_States> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Press106263369> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/type> <http://dbpedia.org/resource/Newspaper> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Newspaper> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Publications_disestablished_in_2010> .

@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Convoy_HX_156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
-<http://dbpedia.org/resource/Convoy_HX_156> <http://dbpedia.org/ontology/combatant> "25pxUnited Kingdom" .
-<http://dbpedia.org/resource/Convoy_HX_156> <http://dbpedia.org/ontology/strength> "16 escorts" .
-<http://dbpedia.org/resource/Convoy_HX_156> <http://dbpedia.org/ontology/commander> <http://dbpedia.org/resource/Admiral> .
-<http://dbpedia.org/resource/Convoy_HX_156> <http://dbpedia.org/ontology/date> "1941-10-22"^^<http://www.w3.org/2001/XMLSchema#date> .

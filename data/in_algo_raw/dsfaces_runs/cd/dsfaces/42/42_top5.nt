@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Charles_Darwin> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Charles_Darwin>.
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/workplaces> <http://dbpedia.org/resource/Geological_Society_of_London>.
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/knownFor> <http://dbpedia.org/resource/Natural_selection>.
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/influences> <http://dbpedia.org/resource/John_Herschel>.
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/citizenship> <http://dbpedia.org/resource/British_Citizenship>.

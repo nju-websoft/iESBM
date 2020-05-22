@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/interlink/716> <http://data.linkedmdb.org/resource/oddlinker/link_source> <http://data.linkedmdb.org/resource/film/1338> .
-<http://data.linkedmdb.org/resource/film/1338> <http://data.linkedmdb.org/resource/movie/genre> <http://data.linkedmdb.org/resource/film_genre/31> .
-<http://data.linkedmdb.org/resource/film/1338> <http://data.linkedmdb.org/resource/movie/film_cut> <http://data.linkedmdb.org/resource/film_cut/5782> .
-<http://data.linkedmdb.org/resource/film/1338> <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/en> .
-<http://data.linkedmdb.org/resource/film/1338> <http://data.linkedmdb.org/resource/movie/actor> <http://data.linkedmdb.org/resource/actor/29477> .

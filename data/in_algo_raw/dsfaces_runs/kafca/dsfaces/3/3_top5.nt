@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Marie_Curie> <http://xmlns.com/foaf/0.1/homepage> <http://www.umcs.lublin.pl/articles.php?aid=1113> .
-<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Passy,_Haute-Savoie> .
-<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Sancellemoz> .
-<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/property/doctoralAdvisor> <http://dbpedia.org/resource/Henri_Becquerel> .
-<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/ontology/doctoralAdvisor> <http://dbpedia.org/resource/Henri_Becquerel> .

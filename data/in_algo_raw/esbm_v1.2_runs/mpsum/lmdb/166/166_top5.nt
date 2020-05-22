@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/film/1338> <http://data.linkedmdb.org/resource/movie/story_contributor> <http://data.linkedmdb.org/resource/film_story_contributor/255> .
-<http://data.linkedmdb.org/resource/film/1338> <http://data.linkedmdb.org/resource/movie/genre> <http://data.linkedmdb.org/resource/film_genre/31> .
-<http://data.linkedmdb.org/resource/interlink/135199> <http://data.linkedmdb.org/resource/oddlinker/link_source> <http://data.linkedmdb.org/resource/film/1338> .
-<http://data.linkedmdb.org/resource/film/1338> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/27085> .
-<http://data.linkedmdb.org/resource/film/1338> <http://data.linkedmdb.org/resource/movie/music_contributor> <http://data.linkedmdb.org/resource/music_contributor/5683> .

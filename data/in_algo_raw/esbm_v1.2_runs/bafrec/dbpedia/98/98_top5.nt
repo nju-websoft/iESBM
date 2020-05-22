@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Terrorist_Threats> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Album> .
-<http://dbpedia.org/resource/Terrorist_Threats> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:English-language_albums> .
-<http://dbpedia.org/resource/Terrorist_Threats> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Gangsta_rap> .
-<http://dbpedia.org/resource/Terrorist_Threats> <http://dbpedia.org/ontology/producer> <http://dbpedia.org/resource/Hertz> .
-<http://dbpedia.org/resource/Terrorist_Threats> <http://www.w3.org/2000/01/rdf-schema#label> "Terrorist Threats"@en .

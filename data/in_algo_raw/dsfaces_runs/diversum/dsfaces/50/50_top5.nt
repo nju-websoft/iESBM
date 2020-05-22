@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Joe_Biden> <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/John_Kerry>.
-<http://dbpedia.org/resource/Joe_Biden> <http://dbpedia.org/ontology/termPeriod> <http://dbpedia.org/resource/Joe_Biden__1>.
-<http://dbpedia.org/resource/Joe_Biden> <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/Strom_Thurmond>.
-<http://dbpedia.org/resource/Joe_Biden> <http://dbpedia.org/property/successor> <http://dbpedia.org/resource/John_Kerry>.
-<http://dbpedia.org/resource/Joe_Biden> <http://dbpedia.org/property/order> <http://dbpedia.org/resource/United_States_Senate_Committee_on_Foreign_Relations>.

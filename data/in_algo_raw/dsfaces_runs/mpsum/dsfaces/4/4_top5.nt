@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/ontology/parent> <http://dbpedia.org/resource/William_H._Gates,_Sr.> .
-<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/parents> <http://dbpedia.org/resource/William_H._Gates,_Sr.> .
-<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/before> <http://dbpedia.org/resource/Warren_Buffett> .
-<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/ontology/board> <http://dbpedia.org/resource/Berkshire_Hathaway> .
-<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/boards> <http://dbpedia.org/resource/Berkshire_Hathaway> .

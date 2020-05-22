@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Ashot_I_of_Iberia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Victim110752093> .
-<http://dbpedia.org/resource/Bagrat_I_of_Iberia> <http://dbpedia.org/ontology/parent> <http://dbpedia.org/resource/Ashot_I_of_Iberia> .
-<http://dbpedia.org/resource/Bagrat_I_of_Iberia> <http://dbpedia.org/ontology/predecessor> <http://dbpedia.org/resource/Ashot_I_of_Iberia> .
-<http://dbpedia.org/resource/Ashot_I_of_Iberia> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:8th-century_births> .
-<http://dbpedia.org/resource/Ashot_I_of_Iberia> <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/Bagrat_I_of_Iberia> .

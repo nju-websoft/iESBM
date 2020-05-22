@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Storme_Warren> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Ohio> .
-<http://dbpedia.org/resource/Storme_Warren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/LivingPeople> .
-<http://dbpedia.org/resource/Storme_Warren> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:American_television_personalities> .
-<http://dbpedia.org/resource/Storme_Warren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Organism100004475> .
-<http://dbpedia.org/resource/Storme_Warren> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/LivingThing100004258> .

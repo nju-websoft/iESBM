@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/status> <http://dbpedia.org/resource/Cancellation_(television)> .
-<http://dbpedia.org/resource/Baywatch> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Baywatch?oldid=547105195> .
-<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/thumbnail> <http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Baywatch_logo.jpg/200px-Baywatch_logo.jpg> .
-<http://dbpedia.org/resource/Baywatch> <http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/6/68/Baywatch_logo.jpg> .
-<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/website> <http://www.baywatch.com> .

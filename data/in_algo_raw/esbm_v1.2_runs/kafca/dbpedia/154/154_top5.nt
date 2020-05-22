@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.96362"^^<http://www.w3.org/2001/XMLSchema#float> .
-<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://dbpedia.org/ontology/areaWater> "113959.476854784"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://dbpedia.org/ontology/postalCode> "07508, 07538" .
-<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://dbpedia.org/ontology/elevation> "92.0496"^^<http://www.w3.org/2001/XMLSchema#double> .
-<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://dbpedia.org/ontology/percentageOfAreaWater> "1.27"^^<http://www.w3.org/2001/XMLSchema#float> .

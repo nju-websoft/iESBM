@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://dbpedia.org/ontology/combatant> "24pxFederals" .
-<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://dbpedia.org/ontology/combatant> "24pxUnitarians" .
-<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://www.w3.org/2002/07/owl#differentFrom> <http://dbpedia.org/resource/Battle_of_Cepeda_(1859)> .
-<http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> <http://xmlns.com/foaf/0.1/name> "Battle of Cepeda"@en .
-<http://dbpedia.org/resource/Battle_of_Cepeda_(1859)> <http://www.w3.org/2002/07/owl#differentFrom> <http://dbpedia.org/resource/Battle_of_Cepeda_(1820)> .

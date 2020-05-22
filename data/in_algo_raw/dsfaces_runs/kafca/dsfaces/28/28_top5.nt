@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/property/legislature> <http://dbpedia.org/resource/National_Assembly_(Seychelles)> .
-<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/ontology/anthem> <http://dbpedia.org/resource/Koste_Seselwa> .
-<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/property/governmentType> <http://dbpedia.org/resource/Presidential_system> .
-<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/property/cctld> <http://dbpedia.org/resource/.sc> .
-<http://dbpedia.org/resource/Seychelles> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Seychelles?oldid=547744333> .

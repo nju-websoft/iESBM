@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/film/49> <http://data.linkedmdb.org/resource/movie/genre> <http://data.linkedmdb.org/resource/film_genre/23> .
-<http://data.linkedmdb.org/resource/film/49> <http://data.linkedmdb.org/resource/movie/filmid> "49"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/director/43> <http://xmlns.com/foaf/0.1/made> <http://data.linkedmdb.org/resource/film/49> .
-<http://data.linkedmdb.org/resource/film/49> <http://xmlns.com/foaf/0.1/page> <http://www.rottentomatoes.com/alias?type=imdbid&s=0017743> .
-<http://data.linkedmdb.org/resource/film/49> <http://data.linkedmdb.org/resource/movie/initial_release_date> "1927,1927-04-29" .

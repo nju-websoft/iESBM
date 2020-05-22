@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/director/10100> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000000535fbd> .
-<http://data.linkedmdb.org/resource/film/1159> <http://data.linkedmdb.org/resource/movie/director> <http://data.linkedmdb.org/resource/director/10100> .
-<http://data.linkedmdb.org/resource/film/1160> <http://data.linkedmdb.org/resource/movie/director> <http://data.linkedmdb.org/resource/director/10100> .
-<http://data.linkedmdb.org/resource/film/11719> <http://data.linkedmdb.org/resource/movie/director> <http://data.linkedmdb.org/resource/director/10100> .
-<http://data.linkedmdb.org/resource/film/12281> <http://data.linkedmdb.org/resource/movie/director> <http://data.linkedmdb.org/resource/director/10100> .

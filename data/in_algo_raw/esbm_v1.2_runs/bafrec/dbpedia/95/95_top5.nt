@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Single> .
-<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Rock_music> .
-<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://dbpedia.org/ontology/recordLabel> <http://dbpedia.org/resource/Columbia_Records> .
-<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://dbpedia.org/ontology/writer> <http://dbpedia.org/resource/Billy_Joel> .
-<http://dbpedia.org/resource/It's_Still_Rock_and_Roll_to_Me> <http://www.w3.org/2000/01/rdf-schema#label> "It's Still Rock and Roll to Me"@en .

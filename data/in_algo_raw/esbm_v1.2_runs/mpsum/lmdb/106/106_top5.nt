@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/film/2381> <http://data.linkedmdb.org/resource/movie/runtime> "108" .
-<http://data.linkedmdb.org/resource/film/2381> <http://purl.org/dc/terms/date> "1965" .
-<http://data.linkedmdb.org/resource/film/2381> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/66844> .
-<http://data.linkedmdb.org/resource/film/2381> <http://dbpedia.org/property/hasPhotoCollection> <http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/What's_New_Pussycat?> .
-<http://data.linkedmdb.org/resource/film/2381> <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/en> .

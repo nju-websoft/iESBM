@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Academy_Award> .
-<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Cecil_B._DeMille_Award> .
-<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Emmy_Award> .
-<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Golden_Globe_Cecil_B._DeMille_Award> .
-<http://dbpedia.org/resource/Walt_Disney> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Walt_Disney> .

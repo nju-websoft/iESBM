@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/property/locationCity> <http://dbpedia.org/resource/Maranello>.
-<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/foundedBy> <http://dbpedia.org/resource/Enzo_Ferrari>.
-<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/thumbnail> <http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ferrari-Logo.svg/200px-Ferrari-Logo.svg.png>.
-<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Ferrari>.
-<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/keyPerson> <http://dbpedia.org/resource/Luca_di_Montezemolo>.

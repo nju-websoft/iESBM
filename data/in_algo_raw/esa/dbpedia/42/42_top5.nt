@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Cobrastyle> <http://dbpedia.org/ontology/subsequentWork> <http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> .
-<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/album> <http://dbpedia.org/resource/Fresh_(Teddybears_album)> .
-<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/album> <http://dbpedia.org/resource/LOL_(Blog_27_album)> .
-<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/musicalArtist> <http://dbpedia.org/resource/Teddybears> .
-<http://dbpedia.org/resource/Hey_Boy_(Teddybears_song)> <http://dbpedia.org/ontology/releaseDate> "2006-01-16"^^<http://www.w3.org/2001/XMLSchema#date> .

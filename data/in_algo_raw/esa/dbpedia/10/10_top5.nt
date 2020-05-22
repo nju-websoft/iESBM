@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Battle_of_Berlin_(RAF_campaign)> <http://dbpedia.org/ontology/commander> <http://dbpedia.org/resource/Roderick_Carr> .
-<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/allegiance> "British Empire" .
-<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Air_Force_Cross_(United_Kingdom)> .
-<http://dbpedia.org/resource/Roderick_Carr> <http://xmlns.com/foaf/0.1/name> "Carr, Roderick"@en .
-<http://dbpedia.org/resource/Roderick_Carr> <http://xmlns.com/foaf/0.1/name> "Roderick Carr"@en .

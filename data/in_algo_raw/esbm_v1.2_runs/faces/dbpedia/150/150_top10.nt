@@ -1,7 +1,0 @@
-<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/isPartOfMilitaryConflict> <http://dbpedia.org/resource/Napoleonic_Wars> .
-<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/place> <http://dbpedia.org/resource/Dutch_East_Indies> .
-<http://dbpedia.org/resource/Archibald_Cochrane_(Royal_Navy_officer)> <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/Raid_on_Griessie> .
-<http://dbpedia.org/resource/Raid_on_Griessie> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Military_raids> .
-<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg?width=300> .
-<http://dbpedia.org/resource/Raid_on_Griessie> <http://dbpedia.org/ontology/commander> <http://dbpedia.org/resource/Edward_Pellew,_1st_Viscount_Exmouth> .
-<http://dbpedia.org/resource/Raid_on_Griessie> <http://xmlns.com/foaf/0.1/depiction> <http://commons.wikimedia.org/wiki/Special:FilePath/Java_blank_map.svg> .

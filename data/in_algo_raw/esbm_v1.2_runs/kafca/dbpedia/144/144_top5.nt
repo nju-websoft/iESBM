@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Pe_Maung_Tin> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Burmese_people_of_Mon_descent> .
-<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/birthDate> "1888-04-24"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://dbpedia.org/resource/Pe_Maung_Tin> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Presidents_of_Burma_Research_Society> .
-<http://dbpedia.org/resource/Glass_Palace_Chronicle> <http://dbpedia.org/ontology/translator> <http://dbpedia.org/resource/Pe_Maung_Tin> .
-<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/religion> <http://dbpedia.org/resource/Anglicanism> .

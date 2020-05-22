@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/film/4053> <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/en> .
-<http://data.linkedmdb.org/resource/film/4053> <http://dbpedia.org/property/hasPhotoCollection> <http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/A_Man,_a_Real_One> .
-<http://data.linkedmdb.org/resource/film/4053> <http://www.w3.org/2000/01/rdf-schema#label> "A Man, a Real One" .
-<http://data.linkedmdb.org/resource/film/4053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/film> .
-<http://data.linkedmdb.org/resource/film/4053> <http://purl.org/dc/terms/title> "A Man, a Real One" .

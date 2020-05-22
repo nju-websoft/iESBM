@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/citizenship> <http://dbpedia.org/resource/British_nationality_law> .
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/citizenship> <http://dbpedia.org/resource/British_nationality_law> .
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/influencedBy> <http://dbpedia.org/resource/Alexander_von_Humboldt> .
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/influences> <http://dbpedia.org/resource/Alexander_von_Humboldt> .
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/John_Lubbock,_1st_Baron_Avebury> .

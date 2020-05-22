@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Barack_Obama> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Barack_Obama?oldid=548538288>.
-<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/children> <http://dbpedia.org/resource/Malia_Obama>.
-<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Barack_Obama>.
-<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/Roland_Burris>.
-<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/profession> <http://dbpedia.org/resource/Constitutional_law>.

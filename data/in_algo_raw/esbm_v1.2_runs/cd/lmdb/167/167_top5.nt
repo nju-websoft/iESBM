@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/film/16986> <http://data.linkedmdb.org/resource/movie/film_cut> <http://data.linkedmdb.org/resource/film_cut/9794> .
-<http://data.linkedmdb.org/resource/film/16986> <http://data.linkedmdb.org/resource/movie/music_contributor> <http://data.linkedmdb.org/resource/music_contributor/5826> .
-<http://data.linkedmdb.org/resource/film/16986> <http://data.linkedmdb.org/resource/movie/genre> <http://data.linkedmdb.org/resource/film_genre/9> .
-<http://data.linkedmdb.org/resource/film/16986> <http://data.linkedmdb.org/resource/movie/actor> <http://data.linkedmdb.org/resource/actor/32395> .
-<http://data.linkedmdb.org/resource/film/16986> <http://purl.org/dc/terms/title> "Anything Goes" .

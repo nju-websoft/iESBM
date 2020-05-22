@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Trichoscypha_cavalliensis> <http://dbpedia.org/ontology/division> <http://dbpedia.org/resource/Flowering_plant> .
-<http://dbpedia.org/resource/Trichoscypha_cavalliensis> <http://dbpedia.org/ontology/kingdom> <http://dbpedia.org/resource/Plant> .
-<http://dbpedia.org/resource/Trichoscypha_cavalliensis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/VulnerablePlants> .
-<http://dbpedia.org/resource/Trichoscypha_cavalliensis> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Vulnerable_plants> .
-<http://dbpedia.org/resource/Trichoscypha_cavalliensis> <http://dbpedia.org/ontology/class> <http://dbpedia.org/resource/Eudicots> .

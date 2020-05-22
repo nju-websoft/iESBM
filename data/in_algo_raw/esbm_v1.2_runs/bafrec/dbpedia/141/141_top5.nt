@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/A._Scott_Sloan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Congressman> .
-<http://dbpedia.org/resource/A._Scott_Sloan> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/New_York> .
-<http://dbpedia.org/resource/A._Scott_Sloan> <http://dbpedia.org/ontology/party> <http://dbpedia.org/resource/Republican_Party_(United_States)> .
-<http://dbpedia.org/resource/A._Scott_Sloan> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Republican_Party_members_of_the_United_States_House_of_Representatives> .
-<http://dbpedia.org/resource/A._Scott_Sloan> <http://www.w3.org/2000/01/rdf-schema#label> "A. Scott Sloan"@en .

@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/2013_Slovak_Cup_Final> <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/ŠK_Slovan_Bratislava> .
-<http://dbpedia.org/resource/2013_Slovak_Cup_Final> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SportsEvent> .
-<http://dbpedia.org/resource/2013_Slovak_Cup_Final> <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Ružomberok> .
-<http://dbpedia.org/resource/2013_Slovak_Cup_Final> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FootballMatch> .
-<http://dbpedia.org/resource/2013_Slovak_Cup_Final> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Slovak_Cup_Finals> .

@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/actor_actorid> "32648"^^<http://www.w3.org/2001/XMLSchema#int> .
-<http://data.linkedmdb.org/resource/film/24490> <http://data.linkedmdb.org/resource/movie/actor> <http://data.linkedmdb.org/resource/actor/32648> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/121912> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/actor> .
-<http://data.linkedmdb.org/resource/actor/32648> <http://data.linkedmdb.org/resource/movie/actor_netflix_id> "" .

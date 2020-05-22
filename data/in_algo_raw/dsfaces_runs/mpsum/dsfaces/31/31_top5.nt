@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/ontology/doctoralStudent> <http://dbpedia.org/resource/Robin_Gandy> .
-<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/property/doctoralStudents> <http://dbpedia.org/resource/Robin_Gandy> .
-<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/ontology/doctoralAdvisor> <http://dbpedia.org/resource/Alonzo_Church> .
-<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/Princeton_University> .
-<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Turing_machine> .

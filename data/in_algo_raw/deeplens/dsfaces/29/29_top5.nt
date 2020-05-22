@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Friends> <http://dbpedia.org/ontology/network> <http://dbpedia.org/resource/NBC> .
-<http://dbpedia.org/resource/Friends> <http://dbpedia.org/property/network> <http://dbpedia.org/resource/NBC> .
-<http://dbpedia.org/resource/Friends> <http://dbpedia.org/property/genre> <http://dbpedia.org/resource/Sitcom> .
-<http://dbpedia.org/resource/Friends> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Sitcom> .
-<http://dbpedia.org/resource/Friends> <http://dbpedia.org/ontology/distributor> <http://dbpedia.org/resource/NBC> .

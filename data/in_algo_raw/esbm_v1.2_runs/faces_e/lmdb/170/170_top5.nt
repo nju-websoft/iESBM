@@ -1,5 +1,0 @@
-<http://data.linkedmdb.org/resource/interlink/39492> <http://data.linkedmdb.org/resource/oddlinker/link_source> <http://data.linkedmdb.org/resource/film/5089> .
-<http://data.linkedmdb.org/resource/film/5089> <http://www.w3.org/2004/02/skos/core#subject> <http://data.linkedmdb.org/resource/film_subject/465> .
-<http://data.linkedmdb.org/resource/film/5089> <http://data.linkedmdb.org/resource/movie/film_cut> <http://data.linkedmdb.org/resource/film_cut/7327> .
-<http://data.linkedmdb.org/resource/film/5089> <http://data.linkedmdb.org/resource/movie/film_subject> <http://data.linkedmdb.org/resource/film_subject/465> .
-<http://data.linkedmdb.org/resource/film/5089> <http://xmlns.com/foaf/0.1/based_near> <http://sws.geonames.org/2077456/> .

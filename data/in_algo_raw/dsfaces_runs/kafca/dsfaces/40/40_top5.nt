@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Norway> <http://xmlns.com/foaf/0.1/homepage> <http://www.norway.no/> .
-<http://dbpedia.org/resource/Norway> <http://dbpedia.org/property/west> <http://dbpedia.org/resource/Atlantic_Ocean> .
-<http://dbpedia.org/resource/Norway> <http://dbpedia.org/property/northwest> <http://dbpedia.org/resource/Norwegian_Sea> .
-<http://dbpedia.org/resource/Norway> <http://dbpedia.org/property/demonym> <http://dbpedia.org/resource/Norwegians> .
-<http://dbpedia.org/resource/Norway> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Norway?oldid=547313779> .

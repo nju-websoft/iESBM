@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Walt_Disney> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Walt_Disney>.
-<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/relations> <http://dbpedia.org/resource/Ronald_William_Miller>.
-<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/awards> <http://dbpedia.org/resource/Golden_Globe_Cecil_B._DeMille_Award>.
-<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/after> <http://dbpedia.org/resource/Jimmy_MacDonald_(sound_effects_artist)>.
-<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Chicago,_Illinois>.

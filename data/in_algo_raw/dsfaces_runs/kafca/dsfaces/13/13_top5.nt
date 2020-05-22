@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/website> <http://www.amsterdam.nl/> .
-<http://dbpedia.org/resource/Amsterdam> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Amsterdam?oldid=548577509> .
-<http://dbpedia.org/resource/Amsterdam> <http://xmlns.com/foaf/0.1/homepage> <http://www.amsterdam.nl/> .
-<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/url> <http://www.1911encyclopedia.com/Amsterdam%2C_Holland> .
-<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/link> <http://whc.unesco.org/en/list/1349/> .

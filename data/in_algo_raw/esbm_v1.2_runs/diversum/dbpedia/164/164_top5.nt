@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/PublicationsEstablishedIn1856> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Media_in_Honolulu,_Hawaii> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/headquarter> <http://dbpedia.org/resource/Hawaii> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/circulation> "141934"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/format> <http://dbpedia.org/resource/Broadsheet> .

@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Kent> .
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/workplaces> <http://dbpedia.org/resource/University_of_Cambridge> .
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/influenced> <http://dbpedia.org/resource/Joseph_Dalton_Hooker> .
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/awards> <http://dbpedia.org/resource/Copley_Medal> .
-<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Evolution> .

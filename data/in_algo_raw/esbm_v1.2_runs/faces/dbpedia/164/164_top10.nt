@@ -1,6 +1,0 @@
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/headquarter> <http://dbpedia.org/resource/United_States> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/type> <http://dbpedia.org/resource/Newspaper> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/format> <http://dbpedia.org/resource/Broadsheet> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://dbpedia.org/ontology/owner> <http://dbpedia.org/resource/Black_Press> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Publications_disestablished_in_2010> .
-<http://dbpedia.org/resource/The_Honolulu_Advertiser> <http://xmlns.com/foaf/0.1/homepage> <http://www.honoluluadvertiser.com> .

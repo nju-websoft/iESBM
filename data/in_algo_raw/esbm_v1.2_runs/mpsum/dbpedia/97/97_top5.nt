@@ -1,5 +1,0 @@
-<http://dbpedia.org/resource/In_the_End_(Black_Veil_Brides_song)> <http://dbpedia.org/ontology/previousWork> <http://dbpedia.org/resource/Rebel_Love_Song> .
-<http://dbpedia.org/resource/Rebel_Love_Song> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Black_Veil_Brides_songs> .
-<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/musicalArtist> <http://dbpedia.org/resource/Black_Veil_Brides> .
-<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/subsequentWork> <http://dbpedia.org/resource/In_the_End_(Black_Veil_Brides_song)> .
-<http://dbpedia.org/resource/Rebel_Love_Song> <http://dbpedia.org/ontology/musicalBand> <http://dbpedia.org/resource/Black_Veil_Brides> .
