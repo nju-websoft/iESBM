@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Naval_battles_involving_Portugal> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:History_of_Kozhikode> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/date> "1502-01-06"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/causalties> "Low" .
+<http://dbpedia.org/resource/Battle_of_Calicut_(1502)> <http://dbpedia.org/ontology/result> "Portuguesevictory" .

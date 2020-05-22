@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Texas> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Texas>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/timezone> <http://dbpedia.org/resource/Mountain_Standard_Time>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/succeeded> <http://dbpedia.org/resource/Iowa>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/senators> <http://dbpedia.org/resource/Ted_Cruz>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/lieutenantGovernor> <http://dbpedia.org/resource/David_Dewhurst>.

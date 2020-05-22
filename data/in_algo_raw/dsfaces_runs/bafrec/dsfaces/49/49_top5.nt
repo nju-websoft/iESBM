@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Usain_Bolt> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Jamaica> .
+<http://dbpedia.org/resource/Usain_Bolt> <http://dbpedia.org/ontology/stateOfOrigin> <http://dbpedia.org/resource/Jamaica> .
+<http://dbpedia.org/resource/Usain_Bolt> <http://dbpedia.org/property/honorificPrefix> <http://dbpedia.org/resource/The_Honourable> .
+<http://dbpedia.org/resource/Usain_Bolt> <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Jamaica> .
+<http://dbpedia.org/resource/Usain_Bolt> <http://dbpedia.org/property/sport> <http://dbpedia.org/resource/Track_and_field> .

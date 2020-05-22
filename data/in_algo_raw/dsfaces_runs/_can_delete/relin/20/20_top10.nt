@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Yukon_River> <http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/f/f4/Dawson_City_Lookout_Yukon_River_3264px.jpg>.
+<http://dbpedia.org/resource/Yukon_River> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Yukon_River>.
+<http://dbpedia.org/resource/Yukon_River> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Yukon_River>.
+<http://dbpedia.org/resource/Yukon_River> <http://dbpedia.org/property/mouthLocation> <http://dbpedia.org/resource/Wade_Hampton_Census_Area,_Alaska>.
+<http://dbpedia.org/resource/Yukon_River> <http://dbpedia.org/ontology/mouthMountain> <http://dbpedia.org/resource/Wade_Hampton_Census_Area,_Alaska>.
+<http://dbpedia.org/resource/Yukon_River> <http://dbpedia.org/ontology/mouthPlace> <http://dbpedia.org/resource/Wade_Hampton_Census_Area,_Alaska>.
+<http://dbpedia.org/resource/Yukon_River> <http://dbpedia.org/ontology/mouthPosition> <http://dbpedia.org/resource/Yukon_River__mouthPosition__1>.
+<http://dbpedia.org/resource/Yukon_River> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Yukon_River?oldid=546352640>.
+<http://dbpedia.org/resource/Yukon_River> <http://dbpedia.org/ontology/riverMouth> <http://dbpedia.org/resource/Bering_Sea>.
+<http://dbpedia.org/resource/Yukon_River> <http://dbpedia.org/ontology/source> <http://dbpedia.org/resource/Atlin_Lake>.

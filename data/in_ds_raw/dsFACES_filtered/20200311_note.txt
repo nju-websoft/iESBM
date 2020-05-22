@@ -1,0 +1,6 @@
+20200311： generated on Maya：C:\D\work\outspace\eSummAna\dsFACES_filtered\
+content：5fold split of dsfaces
+not clean：include all triples；
+do filtered：remove illegal golds (i.e. remove goldK if size(goldK)!=k)；（remove gold5 will not influence gold10）
+
+

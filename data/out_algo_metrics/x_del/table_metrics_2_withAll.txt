@@ -1,0 +1,55 @@
+cols: LFoP & GFoP & GFoV & PRoV & IoPV & DoP & DoV
+%table:	top5
+\begin{table}[!t]
+\centering
+\caption{All top5. gold: FER; others: FSR}
+\label{tab:fsr-all-top5}
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+ & LFoP & GFoP & GFoV & PRoV & IoPV & DoP & DoV \\
+\hline
+FER & 0.712\tiny{$\pm$0.520} \tiny{$^\blacktriangledown$} & 0.955\tiny{$\pm$0.084} \tiny{$^\blacktriangledown$} & 0.985\tiny{$\pm$0.311}  & 1.781\tiny{$\pm$2.167} \tiny{$^\blacktriangle$} & 1.124\tiny{$\pm$0.292} \tiny{$^\blacktriangle$} & 2.465\tiny{$\pm$1.416} \tiny{$^\blacktriangle$} & 1.026\tiny{$\pm$0.064} \tiny{$^\blacktriangle$} \\
+
+\hline
+RANDOM & 1.010\tiny{$\pm$0.283}  & 1.005\tiny{$\pm$0.067}  & 1.025\tiny{$\pm$0.252}  & 1.061\tiny{$\pm$1.159}  & 0.985\tiny{$\pm$0.192}  & 1.903\tiny{$\pm$0.935} \tiny{$^\blacktriangle$} & 1.009\tiny{$\pm$0.105}  \\
+RELIN & 0.511\tiny{$\pm$0.440} \tiny{$^\blacktriangledown$} & 0.931\tiny{$\pm$0.119} \tiny{$^\blacktriangledown$} & 0.432\tiny{$\pm$0.253} \tiny{$^\blacktriangledown$} & 0.325\tiny{$\pm$0.402} \tiny{$^\blacktriangledown$} & 1.506\tiny{$\pm$0.400} \tiny{$^\blacktriangle$} & 2.250\tiny{$\pm$1.234} \tiny{$^\blacktriangle$} & 0.800\tiny{$\pm$0.246} \tiny{$^\blacktriangledown$} \\
+DIVERSUM & 0.851\tiny{$\pm$0.373} \tiny{$^\blacktriangledown$} & 0.940\tiny{$\pm$0.059} \tiny{$^\blacktriangledown$} & 0.930\tiny{$\pm$0.211} \tiny{$^\blacktriangledown$} & 1.058\tiny{$\pm$0.647}  & 1.093\tiny{$\pm$0.181} \tiny{$^\blacktriangle$} & 2.785\tiny{$\pm$1.877} \tiny{$^\blacktriangle$} & 1.037\tiny{$\pm$0.095} \tiny{$^\blacktriangle$} \\
+FACES & 0.532\tiny{$\pm$0.335} \tiny{$^\blacktriangledown$} & 0.892\tiny{$\pm$0.088} \tiny{$^\blacktriangledown$} & 1.029\tiny{$\pm$0.397}  & 1.789\tiny{$\pm$1.389} \tiny{$^\blacktriangle$} & 1.091\tiny{$\pm$0.241} \tiny{$^\blacktriangle$} & 2.721\tiny{$\pm$1.890} \tiny{$^\blacktriangle$} & 1.011\tiny{$\pm$0.129}  \\
+FACES-E & 0.656\tiny{$\pm$0.291} \tiny{$^\blacktriangledown$} & 0.930\tiny{$\pm$0.082} \tiny{$^\blacktriangledown$} & 1.135\tiny{$\pm$0.349} \tiny{$^\blacktriangle$} & 1.971\tiny{$\pm$2.211} \tiny{$^\blacktriangle$} & 1.025\tiny{$\pm$0.230}  & 2.622\tiny{$\pm$1.875} \tiny{$^\blacktriangle$} & 1.002\tiny{$\pm$0.120}  \\
+CD & 0.468\tiny{$\pm$0.266} \tiny{$^\blacktriangledown$} & 0.932\tiny{$\pm$0.104} \tiny{$^\blacktriangledown$} & 0.610\tiny{$\pm$0.300} \tiny{$^\blacktriangledown$} & 0.548\tiny{$\pm$1.010} \tiny{$^\blacktriangledown$} & 1.362\tiny{$\pm$0.352} \tiny{$^\blacktriangle$} & 2.779\tiny{$\pm$1.867} \tiny{$^\blacktriangle$} & 1.070\tiny{$\pm$0.062} \tiny{$^\blacktriangle$} \\
+LinkSUM & 0.639\tiny{$\pm$0.434} \tiny{$^\blacktriangledown$} & 0.898\tiny{$\pm$0.106} \tiny{$^\blacktriangledown$} & 1.155\tiny{$\pm$0.430} \tiny{$^\blacktriangle$} & 2.304\tiny{$\pm$1.451} \tiny{$^\blacktriangle$} & 1.013\tiny{$\pm$0.259}  & 1.723\tiny{$\pm$0.629} \tiny{$^\blacktriangle$} & 0.994\tiny{$\pm$0.162}  \\
+BAFREC & 0.656\tiny{$\pm$0.250} \tiny{$^\blacktriangledown$} & 0.968\tiny{$\pm$0.067} \tiny{$^\blacktriangledown$} & 1.228\tiny{$\pm$0.469} \tiny{$^\blacktriangle$} & 2.736\tiny{$\pm$2.607} \tiny{$^\blacktriangle$} & 0.974\tiny{$\pm$0.232}  & 2.604\tiny{$\pm$1.738} \tiny{$^\blacktriangle$} & 0.985\tiny{$\pm$0.109}  \\
+KAFCA & 0.394\tiny{$\pm$0.276} \tiny{$^\blacktriangledown$} & 0.906\tiny{$\pm$0.108} \tiny{$^\blacktriangledown$} & 0.842\tiny{$\pm$0.409} \tiny{$^\blacktriangledown$} & 0.925\tiny{$\pm$1.237}  & 1.189\tiny{$\pm$0.314} \tiny{$^\blacktriangle$} & 2.629\tiny{$\pm$1.868} \tiny{$^\blacktriangle$} & 0.998\tiny{$\pm$0.130}  \\
+MPSUM & 0.562\tiny{$\pm$0.276} \tiny{$^\blacktriangledown$} & 0.908\tiny{$\pm$0.078} \tiny{$^\blacktriangledown$} & 0.982\tiny{$\pm$0.417}  & 1.490\tiny{$\pm$1.560} \tiny{$^\blacktriangle$} & 1.137\tiny{$\pm$0.297} \tiny{$^\blacktriangle$} & 2.779\tiny{$\pm$1.867} \tiny{$^\blacktriangle$} & 0.918\tiny{$\pm$0.202} \tiny{$^\blacktriangledown$} \\
+ESA & 0.449\tiny{$\pm$0.338} \tiny{$^\blacktriangledown$} & 0.942\tiny{$\pm$0.136} \tiny{$^\blacktriangledown$} & 0.750\tiny{$\pm$0.373} \tiny{$^\blacktriangledown$} & 0.914\tiny{$\pm$1.184}  & 1.282\tiny{$\pm$0.362} \tiny{$^\blacktriangle$} & 2.280\tiny{$\pm$1.508} \tiny{$^\blacktriangle$} & 0.936\tiny{$\pm$0.161} \tiny{$^\blacktriangledown$} \\
+DeepLENS & 0.431\tiny{$\pm$0.357} \tiny{$^\blacktriangledown$} & 0.932\tiny{$\pm$0.116} \tiny{$^\blacktriangledown$} & 0.937\tiny{$\pm$0.441}  & 1.678\tiny{$\pm$2.431} \tiny{$^\blacktriangle$} & 1.174\tiny{$\pm$0.340} \tiny{$^\blacktriangle$} & 2.448\tiny{$\pm$1.443} \tiny{$^\blacktriangle$} & 0.946\tiny{$\pm$0.124} \tiny{$^\blacktriangledown$} \\
+\hline
+\end{tabular}
+\end{table}
+%table:	top10
+\begin{table}[!t]
+\centering
+\caption{All top10. gold: FER; others: FSR}
+\label{tab:fsr-all-top10}
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+ & LFoP & GFoP & GFoV & PRoV & IoPV & DoP & DoV \\
+\hline
+FER & 0.772\tiny{$\pm$0.536} \tiny{$^\blacktriangledown$} & 0.942\tiny{$\pm$0.082} \tiny{$^\blacktriangledown$} & 0.933\tiny{$\pm$0.257} \tiny{$^\blacktriangledown$} & 1.615\tiny{$\pm$1.781} \tiny{$^\blacktriangle$} & 1.139\tiny{$\pm$0.284} \tiny{$^\blacktriangle$} & 2.025\tiny{$\pm$0.941} \tiny{$^\blacktriangle$} & 1.016\tiny{$\pm$0.057} \tiny{$^\blacktriangle$} \\
+
+\hline
+RANDOM & 1.004\tiny{$\pm$0.185}  & 0.999\tiny{$\pm$0.049}  & 1.010\tiny{$\pm$0.173}  & 1.047\tiny{$\pm$0.632}  & 0.990\tiny{$\pm$0.120}  & 1.496\tiny{$\pm$0.476} \tiny{$^\blacktriangle$} & 1.002\tiny{$\pm$0.069}  \\
+RELIN & 0.607\tiny{$\pm$0.354} \tiny{$^\blacktriangledown$} & 0.942\tiny{$\pm$0.097} \tiny{$^\blacktriangledown$} & 0.469\tiny{$\pm$0.165} \tiny{$^\blacktriangledown$} & 0.432\tiny{$\pm$0.332} \tiny{$^\blacktriangledown$} & 1.429\tiny{$\pm$0.306} \tiny{$^\blacktriangle$} & 1.888\tiny{$\pm$0.960} \tiny{$^\blacktriangle$} & 0.893\tiny{$\pm$0.138} \tiny{$^\blacktriangledown$} \\
+DIVERSUM & 0.583\tiny{$\pm$0.307} \tiny{$^\blacktriangledown$} & 0.902\tiny{$\pm$0.066} \tiny{$^\blacktriangledown$} & 0.933\tiny{$\pm$0.292} \tiny{$^\blacktriangledown$} & 1.188\tiny{$\pm$0.695} \tiny{$^\blacktriangle$} & 1.144\tiny{$\pm$0.249} \tiny{$^\blacktriangle$} & 2.785\tiny{$\pm$1.877} \tiny{$^\blacktriangle$} & 1.028\tiny{$\pm$0.065} \tiny{$^\blacktriangle$} \\
+FACES & 0.530\tiny{$\pm$0.336} \tiny{$^\blacktriangledown$} & 0.887\tiny{$\pm$0.086} \tiny{$^\blacktriangledown$} & 0.921\tiny{$\pm$0.314} \tiny{$^\blacktriangledown$} & 1.399\tiny{$\pm$0.661} \tiny{$^\blacktriangle$} & 1.150\tiny{$\pm$0.230} \tiny{$^\blacktriangle$} & 2.689\tiny{$\pm$1.899} \tiny{$^\blacktriangle$} & 0.998\tiny{$\pm$0.113}  \\
+FACES-E & 0.592\tiny{$\pm$0.258} \tiny{$^\blacktriangledown$} & 0.916\tiny{$\pm$0.059} \tiny{$^\blacktriangledown$} & 1.031\tiny{$\pm$0.344}  & 1.512\tiny{$\pm$0.972} \tiny{$^\blacktriangle$} & 1.106\tiny{$\pm$0.245} \tiny{$^\blacktriangle$} & 2.571\tiny{$\pm$1.879} \tiny{$^\blacktriangle$} & 1.007\tiny{$\pm$0.067}  \\
+CD & 0.506\tiny{$\pm$0.214} \tiny{$^\blacktriangledown$} & 0.932\tiny{$\pm$0.084} \tiny{$^\blacktriangledown$} & 0.784\tiny{$\pm$0.364} \tiny{$^\blacktriangledown$} & 0.776\tiny{$\pm$0.553} \tiny{$^\blacktriangledown$} & 1.245\tiny{$\pm$0.307} \tiny{$^\blacktriangle$} & 2.452\tiny{$\pm$1.249} \tiny{$^\blacktriangle$} & 1.044\tiny{$\pm$0.060} \tiny{$^\blacktriangle$} \\
+LinkSUM & 0.722\tiny{$\pm$0.412} \tiny{$^\blacktriangledown$} & 0.926\tiny{$\pm$0.075} \tiny{$^\blacktriangledown$} & 0.953\tiny{$\pm$0.314}  & 1.552\tiny{$\pm$0.678} \tiny{$^\blacktriangle$} & 1.120\tiny{$\pm$0.226} \tiny{$^\blacktriangle$} & 1.401\tiny{$\pm$0.574} \tiny{$^\blacktriangle$} & 0.952\tiny{$\pm$0.159} \tiny{$^\blacktriangledown$} \\
+BAFREC & 0.701\tiny{$\pm$0.204} \tiny{$^\blacktriangledown$} & 0.954\tiny{$\pm$0.058} \tiny{$^\blacktriangledown$} & 1.093\tiny{$\pm$0.336} \tiny{$^\blacktriangle$} & 1.610\tiny{$\pm$0.865} \tiny{$^\blacktriangle$} & 1.040\tiny{$\pm$0.205} \tiny{$^\blacktriangle$} & 1.930\tiny{$\pm$0.869} \tiny{$^\blacktriangle$} & 0.969\tiny{$\pm$0.087} \tiny{$^\blacktriangledown$} \\
+KAFCA & 0.488\tiny{$\pm$0.233} \tiny{$^\blacktriangledown$} & 0.924\tiny{$\pm$0.082} \tiny{$^\blacktriangledown$} & 0.880\tiny{$\pm$0.367} \tiny{$^\blacktriangledown$} & 1.097\tiny{$\pm$0.934}  & 1.171\tiny{$\pm$0.294} \tiny{$^\blacktriangle$} & 2.275\tiny{$\pm$1.441} \tiny{$^\blacktriangle$} & 0.994\tiny{$\pm$0.078}  \\
+MPSUM & 0.529\tiny{$\pm$0.235} \tiny{$^\blacktriangledown$} & 0.908\tiny{$\pm$0.066} \tiny{$^\blacktriangledown$} & 0.940\tiny{$\pm$0.344}  & 1.244\tiny{$\pm$0.679} \tiny{$^\blacktriangle$} & 1.163\tiny{$\pm$0.264} \tiny{$^\blacktriangle$} & 2.609\tiny{$\pm$1.597} \tiny{$^\blacktriangle$} & 0.992\tiny{$\pm$0.085}  \\
+ESA & 0.503\tiny{$\pm$0.330} \tiny{$^\blacktriangledown$} & 0.919\tiny{$\pm$0.111} \tiny{$^\blacktriangledown$} & 0.799\tiny{$\pm$0.293} \tiny{$^\blacktriangledown$} & 1.157\tiny{$\pm$0.876} \tiny{$^\blacktriangle$} & 1.232\tiny{$\pm$0.292} \tiny{$^\blacktriangle$} & 1.949\tiny{$\pm$0.951} \tiny{$^\blacktriangle$} & 0.969\tiny{$\pm$0.092} \tiny{$^\blacktriangledown$} \\
+DeepLENS & 0.520\tiny{$\pm$0.336} \tiny{$^\blacktriangledown$} & 0.898\tiny{$\pm$0.104} \tiny{$^\blacktriangledown$} & 0.891\tiny{$\pm$0.320} \tiny{$^\blacktriangledown$} & 1.520\tiny{$\pm$1.094} \tiny{$^\blacktriangle$} & 1.174\tiny{$\pm$0.272} \tiny{$^\blacktriangle$} & 1.954\tiny{$\pm$0.758} \tiny{$^\blacktriangle$} & 0.990\tiny{$\pm$0.089}  \\
+\hline
+\end{tabular}
+\end{table}

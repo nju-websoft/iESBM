@@ -1,0 +1,10 @@
+<http://data.linkedmdb.org/resource/film/7348> <http://data.linkedmdb.org/resource/movie/genre> <http://data.linkedmdb.org/resource/film_genre/30> .
+<http://data.linkedmdb.org/resource/film/7348> <http://data.linkedmdb.org/resource/movie/genre> <http://data.linkedmdb.org/resource/film_genre/4> .
+<http://data.linkedmdb.org/resource/film/7348> <http://purl.org/dc/terms/date> "1983" .
+<http://data.linkedmdb.org/resource/film/7348> <http://purl.org/dc/terms/title> "Bill: On His Own" .
+<http://data.linkedmdb.org/resource/film/7348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/film> .
+<http://data.linkedmdb.org/resource/film/7348> <http://www.w3.org/2000/01/rdf-schema#label> "Bill: On His Own" .
+<http://data.linkedmdb.org/resource/film/7348> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000000c6ae93> .
+<http://data.linkedmdb.org/resource/film/7348> <http://xmlns.com/foaf/0.1/page> <http://www.imdb.com/title/tt0085247> .
+<http://data.linkedmdb.org/resource/film/7348> <http://xmlns.com/foaf/0.1/page> <http://www.rottentomatoes.com/alias?type=imdbid&s=0085247> .
+<http://data.linkedmdb.org/resource/interlink/140209> <http://data.linkedmdb.org/resource/oddlinker/link_source> <http://data.linkedmdb.org/resource/film/7348> .

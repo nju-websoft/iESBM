@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/timezone> <http://dbpedia.org/resource/Mountain_Standard_Time> .
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/upperhouse> <http://dbpedia.org/resource/Texas_Senate> .
+<http://dbpedia.org/resource/Texas> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Texas?oldid=547668601> .
+<http://dbpedia.org/resource/Texas> <http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg> .
+<http://dbpedia.org/resource/Texas> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Texas> .

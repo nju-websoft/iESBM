@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Momchil_Tsvetanov> <http://dbpedia.org/ontology/alias> "Момчил Цветанов"@en .
+<http://dbpedia.org/resource/Momchil_Tsvetanov> <http://dbpedia.org/ontology/careerStation> <http://dbpedia.org/resource/Momchil_Tsvetanov__7> .
+<http://dbpedia.org/resource/Momchil_Tsvetanov> <http://dbpedia.org/ontology/height> "1.73"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/List_of_Bulgarian_football_transfers_summer_2014> <http://dbpedia.org/ontology/currentMember> <http://dbpedia.org/resource/Momchil_Tsvetanov> .
+<http://dbpedia.org/resource/List_of_Bulgarian_football_transfers_summer_2015> <http://dbpedia.org/ontology/currentMember> <http://dbpedia.org/resource/Momchil_Tsvetanov> .

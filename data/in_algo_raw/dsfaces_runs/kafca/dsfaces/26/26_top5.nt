@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/property/studio> <http://dbpedia.org/resource/Spyglass_Entertainment> .
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Reign_of_Fire_(film)> .
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/property/editing> <http://dbpedia.org/resource/Thom_Noble> .
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/ontology/editing> <http://dbpedia.org/resource/Thom_Noble> .
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/ontology/distributor> <http://dbpedia.org/resource/Touchstone_Pictures> .

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/ontology/spouse> <http://dbpedia.org/resource/Pierre_Curie> .
+<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/ontology/doctoralAdvisor> <http://dbpedia.org/resource/Henri_Becquerel> .
+<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/ontology/doctoralStudent> <http://dbpedia.org/resource/Andr%C3%A9-Louis_Debierne> .
+<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/property/doctoralStudents> <http://dbpedia.org/resource/Andr%C3%A9-Louis_Debierne> .
+<http://dbpedia.org/resource/Marie_Curie> <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Polonium> .

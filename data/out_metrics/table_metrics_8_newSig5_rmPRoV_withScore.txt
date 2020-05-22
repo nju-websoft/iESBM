@@ -1,0 +1,81 @@
+%table: (<TOPK.top5: 5>, 'dbpedia')
+\begin{table}[!t]
+\centering
+\caption{FSR of Features dbpedia top5}
+\label{tab:fsr_rmAll-dbpedia-top5}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|ll|l|l|ll|l|}
+\hline
+ & LFoP & GFoP & GFoV & IoPV & DoP & DoV &  \\
+\hline
+FER & 0.721\tiny{$\pm$0.673}  & 0.915\tiny{$\pm$0.084}  & 0.774\tiny{$\pm$0.206}  & 1.295\tiny{$\pm$0.290}  & 2.478\tiny{$\pm$0.747}  & 1.016\tiny{$\pm$0.054}  &  \\
+ \hline 
+RANDOM & 1.034\tiny{$\pm$0.300}  & 1.006\tiny{$\pm$0.076}  & 1.014\tiny{$\pm$0.235}  & 0.982\tiny{$\pm$0.246}  & 1.779\tiny{$\pm$0.617}  & 1.005\tiny{$\pm$0.095} \tiny{$^\bullet$} & 2 \\
+RELIN & 0.280\tiny{$\pm$0.228} $^\circ$ & 0.869\tiny{$\pm$0.075} $^\circ$ & 0.277\tiny{$\pm$0.098} $^\circ$ & 1.801\tiny{$\pm$0.297} $^\circ$ & 2.351\tiny{$\pm$0.791} \tiny{$^\bullet$} & 0.749\tiny{$\pm$0.253}  & 6 \\
+DIVERSUM & 0.649\tiny{$\pm$0.192} \tiny{$^\bullet$} & 0.910\tiny{$\pm$0.048} \tiny{$^\bullet$} & 0.854\tiny{$\pm$0.167}  & 1.175\tiny{$\pm$0.198}  & 2.753\tiny{$\pm$0.925} $^\circ$ & 1.037\tiny{$\pm$0.086} $^\circ$ & 6 \\
+FACES & 0.322\tiny{$\pm$0.226} $^\circ$ & 0.849\tiny{$\pm$0.067} $^\circ$ & 0.805\tiny{$\pm$0.184} \tiny{$^\bullet$} & 1.231\tiny{$\pm$0.220} \tiny{$^\bullet$} & 2.664\tiny{$\pm$0.938} $^\circ$ & 0.987\tiny{$\pm$0.131} \tiny{$^\bullet$} & 9 \\
+FACES-E & 0.623\tiny{$\pm$0.281} \tiny{$^\bullet$} & 0.914\tiny{$\pm$0.079} \tiny{$^\bullet$} & 0.911\tiny{$\pm$0.208}  & 1.142\tiny{$\pm$0.241}  & 2.494\tiny{$\pm$0.881} \tiny{$^\bullet$} & 0.972\tiny{$\pm$0.118}  & 6 \\
+CD & 0.334\tiny{$\pm$0.181} $^\circ$ & 0.863\tiny{$\pm$0.062} $^\circ$ & 0.414\tiny{$\pm$0.136} $^\circ$ & 1.620\tiny{$\pm$0.250} $^\circ$ & 2.742\tiny{$\pm$0.886} $^\circ$ & 1.061\tiny{$\pm$0.051} $^\circ$ & 6 \\
+LinkSUM & 0.350\tiny{$\pm$0.269} $^\circ$ & 0.839\tiny{$\pm$0.091} $^\circ$ & 0.901\tiny{$\pm$0.227}  & 1.147\tiny{$\pm$0.252}  & 1.913\tiny{$\pm$0.609}  & 0.976\tiny{$\pm$0.141}  & 2 \\
+BAFREC & 0.585\tiny{$\pm$0.169} \tiny{$^\bullet$} & 0.954\tiny{$\pm$0.056}  & 0.908\tiny{$\pm$0.177}  & 1.117\tiny{$\pm$0.198}  & 2.586\tiny{$\pm$0.755} $^\circ$ & 0.980\tiny{$\pm$0.107}  & 3 \\
+KAFCA & 0.361\tiny{$\pm$0.248} $^\circ$ & 0.850\tiny{$\pm$0.083} $^\circ$ & 0.646\tiny{$\pm$0.244} $^\circ$ & 1.377\tiny{$\pm$0.294} $^\circ$ & 2.505\tiny{$\pm$0.829} \tiny{$^\bullet$} & 0.993\tiny{$\pm$0.116} \tiny{$^\bullet$} & 8 \\
+MPSUM & 0.434\tiny{$\pm$0.201} $^\circ$ & 0.876\tiny{$\pm$0.072} $^\circ$ & 0.730\tiny{$\pm$0.250} \tiny{$^\bullet$} & 1.304\tiny{$\pm$0.291} \tiny{$^\bullet$} & 2.742\tiny{$\pm$0.886} $^\circ$ & 0.891\tiny{$\pm$0.187}  & 7 \\
+ESA & 0.266\tiny{$\pm$0.212} $^\circ$ & 0.848\tiny{$\pm$0.084} $^\circ$ & 0.529\tiny{$\pm$0.179} $^\circ$ & 1.535\tiny{$\pm$0.282} $^\circ$ & 2.303\tiny{$\pm$0.827}  & 0.930\tiny{$\pm$0.160}  & 4 \\
+DeepLENS & 0.302\tiny{$\pm$0.219} $^\circ$ & 0.854\tiny{$\pm$0.076} $^\circ$ & 0.656\tiny{$\pm$0.190} $^\circ$ & 1.407\tiny{$\pm$0.267} $^\circ$ & 2.415\tiny{$\pm$0.801} \tiny{$^\bullet$} & 0.957\tiny{$\pm$0.115}  & 6 \\
+\hline
+\end{tabular}}
+\end{table}
+%table: (<TOPK.top5: 5>, 'lmdb')
+\begin{table}[!t]
+\centering
+\caption{FSR of Features lmdb top5}
+\label{tab:fsr_rmAll-lmdb-top5}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|ll|l|l|ll|l|}
+\hline
+ & LFoP & GFoP & GFoV & IoPV & DoP & DoV &  \\
+\hline
+FER & 0.581\tiny{$\pm$0.125}  & 0.998\tiny{$\pm$0.029}  & 1.349\tiny{$\pm$0.188}  & 0.864\tiny{$\pm$0.057}  & 3.093\tiny{$\pm$2.394}  & 1.061\tiny{$\pm$0.059}  &  \\
+ \hline 
+RANDOM & 0.977\tiny{$\pm$0.243}  & 0.996\tiny{$\pm$0.037} \tiny{$^\bullet$} & 1.016\tiny{$\pm$0.275}  & 0.994\tiny{$\pm$0.089}  & 2.451\tiny{$\pm$1.528}  & 1.013\tiny{$\pm$0.132} \tiny{$^\bullet$} & 4 \\
+RELIN & 0.688\tiny{$\pm$0.432} \tiny{$^\bullet$} & 0.991\tiny{$\pm$0.047} \tiny{$^\bullet$} & 0.600\tiny{$\pm$0.137}  & 1.154\tiny{$\pm$0.050}  & 2.775\tiny{$\pm$2.012} \tiny{$^\bullet$} & 0.966\tiny{$\pm$0.186}  & 6 \\
+DIVERSUM & 0.870\tiny{$\pm$0.381}  & 0.993\tiny{$\pm$0.038} \tiny{$^\bullet$} & 1.006\tiny{$\pm$0.247}  & 0.991\tiny{$\pm$0.077}  & 3.869\tiny{$\pm$3.357} $^\circ$ & 1.091\tiny{$\pm$0.082} $^\circ$ & 4 \\
+FACES & 0.728\tiny{$\pm$0.149}  & 0.953\tiny{$\pm$0.083}  & 1.128\tiny{$\pm$0.466}  & 0.947\tiny{$\pm$0.144}  & 3.869\tiny{$\pm$3.357} $^\circ$ & 1.065\tiny{$\pm$0.114} \tiny{$^\bullet$} & 3 \\
+FACES-E & 0.536\tiny{$\pm$0.163} \tiny{$^\bullet$} & 0.962\tiny{$\pm$0.079}  & 1.341\tiny{$\pm$0.296} \tiny{$^\bullet$} & 0.872\tiny{$\pm$0.092} \tiny{$^\bullet$} & 3.848\tiny{$\pm$3.352} $^\circ$ & 1.058\tiny{$\pm$0.095} \tiny{$^\bullet$} & 9 \\
+CD & 0.470\tiny{$\pm$0.199} $^\circ$ & 0.996\tiny{$\pm$0.073} \tiny{$^\bullet$} & 1.009\tiny{$\pm$0.212}  & 0.959\tiny{$\pm$0.079}  & 3.869\tiny{$\pm$3.357} $^\circ$ & 1.102\tiny{$\pm$0.073} $^\circ$ & 5 \\
+LinkSUM & 1.026\tiny{$\pm$0.263}  & 0.958\tiny{$\pm$0.056}  & 1.288\tiny{$\pm$0.459} \tiny{$^\bullet$} & 0.894\tiny{$\pm$0.169} \tiny{$^\bullet$} & 1.510\tiny{$\pm$0.648}  & 0.974\tiny{$\pm$0.237} \tiny{$^\bullet$} & 6 \\
+BAFREC & 0.562\tiny{$\pm$0.201} \tiny{$^\bullet$} & 1.020\tiny{$\pm$0.053}  & 1.598\tiny{$\pm$0.491} $^\circ$ & 0.781\tiny{$\pm$0.144} $^\circ$ & 3.485\tiny{$\pm$3.228} $^\circ$ & 1.009\tiny{$\pm$0.102}  & 5 \\
+KAFCA & 0.234\tiny{$\pm$0.200} $^\circ$ & 0.954\tiny{$\pm$0.056}  & 1.309\tiny{$\pm$0.395} \tiny{$^\bullet$} & 0.884\tiny{$\pm$0.108} \tiny{$^\bullet$} & 3.869\tiny{$\pm$3.357} $^\circ$ & 1.101\tiny{$\pm$0.075} $^\circ$ & 7 \\
+MPSUM & 0.568\tiny{$\pm$0.201} \tiny{$^\bullet$} & 0.979\tiny{$\pm$0.046}  & 1.249\tiny{$\pm$0.428} \tiny{$^\bullet$} & 0.908\tiny{$\pm$0.131} \tiny{$^\bullet$} & 3.869\tiny{$\pm$3.357} $^\circ$ & 1.082\tiny{$\pm$0.088} \tiny{$^\bullet$} & 9 \\
+ESA & 0.514\tiny{$\pm$0.235} \tiny{$^\bullet$} & 1.029\tiny{$\pm$0.037}  & 1.241\tiny{$\pm$0.352} \tiny{$^\bullet$} & 0.892\tiny{$\pm$0.116} \tiny{$^\bullet$} & 3.125\tiny{$\pm$2.613} \tiny{$^\bullet$} & 1.013\tiny{$\pm$0.159} \tiny{$^\bullet$} & 10 \\
+DeepLENS & 0.361\tiny{$\pm$0.163} $^\circ$ & 1.004\tiny{$\pm$0.037} \tiny{$^\bullet$} & 1.412\tiny{$\pm$0.409} \tiny{$^\bullet$} & 0.840\tiny{$\pm$0.129} \tiny{$^\bullet$} & 3.496\tiny{$\pm$2.343} $^\circ$ & 1.001\tiny{$\pm$0.092}  & 8 \\
+\hline
+\end{tabular}}
+\end{table}
+%table: (<TOPK.top5: 5>, 'dsfaces')
+\begin{table}[!t]
+\centering
+\caption{FSR of Features dsfaces top5}
+\label{tab:fsr_rmAll-dsfaces-top5}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|ll|l|l|ll|l|}
+\hline
+ & LFoP & GFoP & GFoV & IoPV & DoP & DoV &  \\
+\hline
+FER & 0.821\tiny{$\pm$0.205}  & 1.012\tiny{$\pm$0.066}  & 1.148\tiny{$\pm$0.153}  & 0.958\tiny{$\pm$0.044}  & 1.699\tiny{$\pm$0.480}  & 1.016\tiny{$\pm$0.046}  &  \\
+ \hline 
+RANDOM & 0.983\tiny{$\pm$0.273}  & 1.009\tiny{$\pm$0.069} \tiny{$^\bullet$} & 1.064\tiny{$\pm$0.265} \tiny{$^\bullet$} & 0.983\tiny{$\pm$0.075} \tiny{$^\bullet$} & 1.666\tiny{$\pm$0.505} \tiny{$^\bullet$} & 1.014\tiny{$\pm$0.098} \tiny{$^\bullet$} & 10 \\
+RELIN & 0.911\tiny{$\pm$0.481} \tiny{$^\bullet$} & 1.028\tiny{$\pm$0.157} \tiny{$^\bullet$} & 0.652\tiny{$\pm$0.329}  & 1.123\tiny{$\pm$0.097}  & 1.473\tiny{$\pm$0.579}  & 0.761\tiny{$\pm$0.209}  & 4 \\
+DIVERSUM & 1.339\tiny{$\pm$0.220}  & 0.962\tiny{$\pm$0.056}  & 1.043\tiny{$\pm$0.191}  & 0.989\tiny{$\pm$0.069} \tiny{$^\bullet$} & 1.783\tiny{$\pm$0.517} $^\circ$ & 0.981\tiny{$\pm$0.097} \tiny{$^\bullet$} & 5 \\
+FACES & 0.860\tiny{$\pm$0.314} \tiny{$^\bullet$} & 0.936\tiny{$\pm$0.081}  & 1.489\tiny{$\pm$0.245} $^\circ$ & 0.886\tiny{$\pm$0.084} $^\circ$ & 1.714\tiny{$\pm$0.514} \tiny{$^\bullet$} & 1.019\tiny{$\pm$0.124} \tiny{$^\bullet$} & 8 \\
+FACES-E & 0.860\tiny{$\pm$0.314} \tiny{$^\bullet$} & 0.936\tiny{$\pm$0.081}  & 1.489\tiny{$\pm$0.245} $^\circ$ & 0.886\tiny{$\pm$0.084} $^\circ$ & 1.714\tiny{$\pm$0.514} \tiny{$^\bullet$} & 1.019\tiny{$\pm$0.124} \tiny{$^\bullet$} & 8 \\
+CD & 0.799\tiny{$\pm$0.206} \tiny{$^\bullet$} & 1.042\tiny{$\pm$0.075}  & 0.699\tiny{$\pm$0.226}  & 1.118\tiny{$\pm$0.076}  & 1.783\tiny{$\pm$0.517} $^\circ$ & 1.060\tiny{$\pm$0.066}  & 3 \\
+LinkSUM & 0.976\tiny{$\pm$0.353}  & 0.987\tiny{$\pm$0.080} \tiny{$^\bullet$} & 1.656\tiny{$\pm$0.250} $^\circ$ & 0.797\tiny{$\pm$0.089} $^\circ$ & 1.460\tiny{$\pm$0.474}  & 1.062\tiny{$\pm$0.074}  & 4 \\
+BAFREC & 0.928\tiny{$\pm$0.273}  & 0.949\tiny{$\pm$0.078}  & 1.658\tiny{$\pm$0.304} $^\circ$ & 0.811\tiny{$\pm$0.089} $^\circ$ & 1.768\tiny{$\pm$0.516} $^\circ$ & 0.975\tiny{$\pm$0.119} \tiny{$^\bullet$} & 5 \\
+KAFCA & 0.636\tiny{$\pm$0.248} $^\circ$ & 0.999\tiny{$\pm$0.116} \tiny{$^\bullet$} & 0.864\tiny{$\pm$0.363}  & 1.024\tiny{$\pm$0.092}  & 1.699\tiny{$\pm$0.518} \tiny{$^\bullet$} & 0.909\tiny{$\pm$0.134}  & 5 \\
+MPSUM & 0.878\tiny{$\pm$0.245} \tiny{$^\bullet$} & 0.918\tiny{$\pm$0.067}  & 1.344\tiny{$\pm$0.289} $^\circ$ & 0.949\tiny{$\pm$0.095} \tiny{$^\bullet$} & 1.783\tiny{$\pm$0.517} $^\circ$ & 0.821\tiny{$\pm$0.225}  & 6 \\
+ESA & 0.842\tiny{$\pm$0.323} \tiny{$^\bullet$} & 1.090\tiny{$\pm$0.113}  & 0.813\tiny{$\pm$0.232}  & 1.039\tiny{$\pm$0.075}  & 1.378\tiny{$\pm$0.408}  & 0.875\tiny{$\pm$0.136}  & 2 \\
+DeepLENS & 0.823\tiny{$\pm$0.476} \tiny{$^\bullet$} & 1.056\tiny{$\pm$0.095}  & 1.166\tiny{$\pm$0.375} \tiny{$^\bullet$} & 0.926\tiny{$\pm$0.124} \tiny{$^\bullet$} & 1.481\tiny{$\pm$0.486}  & 0.863\tiny{$\pm$0.131}  & 6 \\
+\hline
+\end{tabular}}
+\end{table}

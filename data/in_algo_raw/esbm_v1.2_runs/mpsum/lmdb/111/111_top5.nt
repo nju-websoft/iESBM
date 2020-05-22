@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/film/41573> <http://purl.org/dc/terms/title> "Broken Lance" .
+<http://data.linkedmdb.org/resource/film/41573> <http://www.w3.org/2000/01/rdf-schema#label> "Broken Lance" .
+<http://data.linkedmdb.org/resource/film/41573> <http://data.linkedmdb.org/resource/movie/film_format> <http://data.linkedmdb.org/resource/film_format/56> .
+<http://data.linkedmdb.org/resource/film/41573> <http://data.linkedmdb.org/resource/movie/writer> <http://data.linkedmdb.org/resource/writer/16556> .
+<http://data.linkedmdb.org/resource/film/41573> <http://data.linkedmdb.org/resource/movie/film_art_director> <http://data.linkedmdb.org/resource/film_art_director/2> .

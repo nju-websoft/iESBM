@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Adelphi_Has_to_Fly> <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Lucy_Ward_(musician)> .
+<http://dbpedia.org/resource/Belinda_O'Hooley> <http://dbpedia.org/ontology/associatedBand> <http://dbpedia.org/resource/Lucy_Ward_(musician)> .
+<http://dbpedia.org/resource/Belinda_O'Hooley> <http://dbpedia.org/ontology/associatedMusicalArtist> <http://dbpedia.org/resource/Lucy_Ward_(musician)> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://xmlns.com/foaf/0.1/name> "Lucy Ward"@en .
+<http://dbpedia.org/resource/Single_Flame> <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Lucy_Ward_(musician)> .

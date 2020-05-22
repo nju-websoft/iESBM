@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Alan_Turing> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Alan_Turing>.
+<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/property/thesisUrl> <http://search.proquest.com/docview/301792588>.
+<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/property/prizes> <http://dbpedia.org/resource/Officer_of_the_Order_of_the_British_Empire>.
+<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/property/knownFor> <http://dbpedia.org/resource/Halting_problem>.
+<http://dbpedia.org/resource/Alan_Turing> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Fellow_of_the_Royal_Society>.

@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/genre> <http://dbpedia.org/resource/Action_(genre)>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/distributor> <http://dbpedia.org/resource/FremantleMedia_Enterprises>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/status> <http://dbpedia.org/resource/Cancellation_(television)>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/creator> <http://dbpedia.org/resource/Gregory_J._Bonann>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/location> <http://dbpedia.org/resource/Santa_Monica,_California>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/thumbnail> <http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Baywatch_logo.jpg/200px-Baywatch_logo.jpg>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/related> <http://dbpedia.org/resource/Baywatch_Nights>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Baywatch>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/executiveProducer> <http://dbpedia.org/resource/David_Hasselhoff>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/format> <http://dbpedia.org/resource/4:3>.

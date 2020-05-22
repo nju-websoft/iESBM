@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Richard_Mentor_Johnson> <http://dbpedia.org/ontology/president> <http://dbpedia.org/resource/Martin_Van_Buren> .
+<http://dbpedia.org/resource/Richard_Mentor_Johnson> <http://dbpedia.org/property/before> <http://dbpedia.org/resource/Martin_Van_Buren> .
+<http://dbpedia.org/resource/Richard_Mentor_Johnson> <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/Martin_Van_Buren> .
+<http://dbpedia.org/resource/Richard_Mentor_Johnson> <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/John_Tyler> .
+<http://dbpedia.org/resource/Richard_Mentor_Johnson> <http://dbpedia.org/property/after> <http://dbpedia.org/resource/John_Tyler> .

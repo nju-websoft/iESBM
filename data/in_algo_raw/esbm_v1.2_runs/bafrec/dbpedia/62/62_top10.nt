@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GrandPrix> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/fastestDriverTeam> <http://dbpedia.org/resource/Team_Lotus> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://www.w3.org/2000/01/rdf-schema#label> "1967 Italian Grand Prix"@en .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/fastestDriver> <http://dbpedia.org/resource/Jim_Clark> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/thirdTeam> <http://dbpedia.org/resource/Team_Lotus> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/thirdDriver> <http://dbpedia.org/resource/Jim_Clark> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SportsEvent> .
+<http://dbpedia.org/resource/1967_Italian_Grand_Prix> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Monza_1957.jpg?width=300> .

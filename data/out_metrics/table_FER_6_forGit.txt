@@ -1,0 +1,40 @@
+%table: TOPK.top5
+<strong>Table 1. FER on each dataset for k=5.</strong>
+<table class="tablesorter" id="tb_fer_top5">
+<thead>
+<tr><th data-sorter="false" class="header"></th><th class="header">LFoP</th>
+<th class="header">GFoP</th>
+<th class="header">GFoV</th>
+<th class="header">IoPV</th>
+<th class="header">DoP</th>
+<th class="header">DoV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESBM-D</td><td>0.721</td><td>0.915</td><td>0.774</td><td>1.295</td><td>2.478</td><td>1.016</td></tr>
+<tr>
+<td>ESBM-L</td><td>0.581</td><td>0.998</td><td>1.349</td><td>0.864</td><td>3.093</td><td>1.061</td></tr>
+<tr>
+<td>FED</td><td>0.821</td><td>1.012</td><td>1.148</td><td>0.958</td><td>1.699</td><td>1.016</td></tr>
+</tbody></table>
+%table: TOPK.top10
+<strong>Table 2. FER on each dataset for k=10.</strong>
+<table class="tablesorter" id="tb_fer_top10">
+<thead>
+<tr><th data-sorter="false" class="header"></th><th class="header">LFoP</th>
+<th class="header">GFoP</th>
+<th class="header">GFoV</th>
+<th class="header">IoPV</th>
+<th class="header">DoP</th>
+<th class="header">DoV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESBM-D</td><td>0.742</td><td>0.906</td><td>0.772</td><td>1.291</td><td>2.080</td><td>1.002</td></tr>
+<tr>
+<td>ESBM-L</td><td>0.757</td><td>0.983</td><td>1.203</td><td>0.917</td><td>2.092</td><td>1.047</td></tr>
+<tr>
+<td>FED</td><td>0.862</td><td>0.993</td><td>1.065</td><td>0.981</td><td>1.601</td><td>1.018</td></tr>
+</tbody></table>

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/Thomas_Jefferson> .
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/vicePresident> <http://dbpedia.org/resource/Thomas_Mifflin> .
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Philadelphia> .
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/associate> <http://dbpedia.org/resource/John_Adams> .
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/child> <http://dbpedia.org/resource/William_Franklin> .

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/property/state> <http://dbpedia.org/resource/Texas>.
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/ontology/thumbnail> <http://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Rice_University_seal.svg/200px-Rice_University_seal.svg.png>.
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/property/affiliations> <http://dbpedia.org/resource/Association_of_American_Universities>.
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/ontology/athletics> <http://dbpedia.org/resource/Conference_USA>.
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/ontology/campus> <http://dbpedia.org/resource/Urban_area>.

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Benjamin_Franklin>.
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/property/vicepresident> <http://dbpedia.org/resource/Thomas_Mifflin>.
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/Deborah_Read>.
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/associate> <http://dbpedia.org/resource/Arthur_Lee_(diplomat)>.
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/Isaac_Norris_(statesman)>.

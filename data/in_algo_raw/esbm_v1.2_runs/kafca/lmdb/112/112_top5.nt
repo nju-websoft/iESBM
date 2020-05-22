@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/film/4501> <http://data.linkedmdb.org/resource/movie/filmid> "4501"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://data.linkedmdb.org/resource/film/4501> <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/ja> .
+<http://data.linkedmdb.org/resource/film/4501> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f8000000000867897> .
+<http://data.linkedmdb.org/resource/film/4501> <http://data.linkedmdb.org/resource/movie/music_contributor> <http://data.linkedmdb.org/resource/music_contributor/5614> .
+<http://data.linkedmdb.org/resource/interlink/137895> <http://data.linkedmdb.org/resource/oddlinker/link_source> <http://data.linkedmdb.org/resource/film/4501> .

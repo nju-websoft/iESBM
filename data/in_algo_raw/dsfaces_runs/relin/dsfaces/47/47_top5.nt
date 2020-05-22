@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/property/appointed> <http://dbpedia.org/resource/Continental_Congress>.
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/associate> <http://dbpedia.org/resource/Arthur_Lee_(diplomat)>.
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/associate> <http://dbpedia.org/resource/Silas_Deane>.
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/associate> <http://dbpedia.org/resource/John_Adams>.
+<http://dbpedia.org/resource/Benjamin_Franklin> <http://dbpedia.org/ontology/child> <http://dbpedia.org/resource/Sarah_Franklin_Bache>.

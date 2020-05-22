@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Terrorist_Threats> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Gangsta_rap_albums> .
+<http://dbpedia.org/resource/Terrorist_Threats> <http://dbpedia.org/ontology/runtime> "3081.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Terrorist_Threats> <http://dbpedia.org/ontology/releaseDate> "2003-12-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Terrorist_Threats> <http://dbpedia.org/ontology/previousWork> <http://dbpedia.org/resource/Bow_Down> .
+<http://dbpedia.org/resource/Bow_Down> <http://dbpedia.org/ontology/subsequentWork> <http://dbpedia.org/resource/Terrorist_Threats> .

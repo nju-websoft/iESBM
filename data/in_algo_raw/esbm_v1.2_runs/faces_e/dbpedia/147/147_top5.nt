@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://dbpedia.org/ontology/isPartOfMilitaryConflict> <http://dbpedia.org/resource/Sri_Lankan_Civil_War> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://dbpedia.org/ontology/place> <http://dbpedia.org/resource/Sri_Lanka> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Conflict100958896> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Coat_of_arms_of_Sri_Lanka.svg?width=300> .
+<http://dbpedia.org/resource/Battle_of_Sampur> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Conflicts_in_2006> .

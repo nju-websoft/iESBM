@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/borderingstates> <http://dbpedia.org/resource/Arkansas>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/borderingstates> <http://dbpedia.org/resource/Louisiana>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/borderingstates> <http://dbpedia.org/resource/New_Mexico>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/capital> <http://dbpedia.org/resource/Austin,_Texas>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/demonym> <http://dbpedia.org/resource/Tejano>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/demonym> <http://dbpedia.org/resource/Texian>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/demonym> <http://dbpedia.org/resource/Texan_(disambiguation)>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/demonym> <http://dbpedia.org/resource/Texan>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/flaglink> <http://dbpedia.org/resource/Flag_of_Texas>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Texas>.

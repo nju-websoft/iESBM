@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Lexus> <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Japan>.
+<http://dbpedia.org/resource/Lexus> <http://dbpedia.org/ontology/keyPerson> <http://dbpedia.org/resource/Chief_executive_officer>.
+<http://dbpedia.org/resource/Lexus> <http://dbpedia.org/property/owner> <http://dbpedia.org/resource/Toyota>.
+<http://dbpedia.org/resource/Lexus> <http://dbpedia.org/property/services> <http://dbpedia.org/resource/Financial_services>.
+<http://dbpedia.org/resource/Lexus> <http://dbpedia.org/ontology/keyPerson> <http://dbpedia.org/resource/Vice_president>.

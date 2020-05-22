@@ -1,0 +1,32 @@
+%table: TOPK.top5
+\begin{table}[!t]
+\centering
+\caption{FER of Features top5}
+\label{tab:fer_rmAll_top5}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|ll|ll|l|ll|l|}
+\hline
+ & LFoP & GFoP & LFoV & GFoV & IoPV & DoP & DoV & Cos \\
+\hline
+ESBM-D & 0.721\tiny{$\pm$0.673} \tiny{$^\downarrow$}  & 0.915\tiny{$\pm$0.084} \tiny{$^\downarrow$}  & 1.050\tiny{$\pm$0.151} \tiny{$^\uparrow$}  & 0.774\tiny{$\pm$0.206} \tiny{$^\downarrow$}  & 1.295\tiny{$\pm$0.290} \tiny{$^\uparrow$}  & 2.478\tiny{$\pm$0.747} \tiny{$^\uparrow$}  & 1.016\tiny{$\pm$0.054} \tiny{$^\uparrow$}  & 0.828\tiny{$\pm$0.173} \tiny{$^\downarrow$}  \\
+ESBM-L & 0.581\tiny{$\pm$0.125} \tiny{$^\downarrow$}  & 0.998\tiny{$\pm$0.029}   & 1.057\tiny{$\pm$0.147} \tiny{$^\uparrow$}  & 1.349\tiny{$\pm$0.188} \tiny{$^\uparrow$}  & 0.864\tiny{$\pm$0.057} \tiny{$^\downarrow$}  & 3.093\tiny{$\pm$2.394} \tiny{$^\uparrow$}  & 1.061\tiny{$\pm$0.068} \tiny{$^\uparrow$}  & 0.759\tiny{$\pm$0.138} \tiny{$^\downarrow$}  \\
+FED & 0.821\tiny{$\pm$0.205} \tiny{$^\downarrow$}  & 1.012\tiny{$\pm$0.066}   & 1.052\tiny{$\pm$0.137}   & 1.148\tiny{$\pm$0.153} \tiny{$^\uparrow$}  & 0.958\tiny{$\pm$0.044} \tiny{$^\downarrow$}  & 1.699\tiny{$\pm$0.480} \tiny{$^\uparrow$}  & 1.016\tiny{$\pm$0.046}   & 0.895\tiny{$\pm$0.095} \tiny{$^\downarrow$}  \\
+\hline
+\end{tabular}}
+\end{table}
+%table: TOPK.top10
+\begin{table}[!t]
+\centering
+\caption{FER of Features top10}
+\label{tab:fer_rmAll_top10}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|ll|ll|l|ll|l|}
+\hline
+ & LFoP & GFoP & LFoV & GFoV & IoPV & DoP & DoV & Cos \\
+\hline
+ESBM-D & 0.742\tiny{$\pm$0.704} \tiny{$^\downarrow$}  & 0.906\tiny{$\pm$0.090} \tiny{$^\downarrow$}  & 1.033\tiny{$\pm$0.138} \tiny{$^\uparrow$}  & 0.772\tiny{$\pm$0.209} \tiny{$^\downarrow$}  & 1.291\tiny{$\pm$0.302} \tiny{$^\uparrow$}  & 2.080\tiny{$\pm$0.555} \tiny{$^\uparrow$}  & 1.002\tiny{$\pm$0.038}   & 0.864\tiny{$\pm$0.154} \tiny{$^\downarrow$}  \\
+ESBM-L & 0.757\tiny{$\pm$0.131} \tiny{$^\downarrow$}  & 0.983\tiny{$\pm$0.025} \tiny{$^\downarrow$}  & 1.015\tiny{$\pm$0.077}   & 1.203\tiny{$\pm$0.152} \tiny{$^\uparrow$}  & 0.917\tiny{$\pm$0.054} \tiny{$^\downarrow$}  & 2.092\tiny{$\pm$1.298} \tiny{$^\uparrow$}  & 1.048\tiny{$\pm$0.068} \tiny{$^\uparrow$}  & 0.986\tiny{$\pm$0.126}   \\
+FED & 0.862\tiny{$\pm$0.154} \tiny{$^\downarrow$}  & 0.993\tiny{$\pm$0.041}   & 1.002\tiny{$\pm$0.085}   & 1.065\tiny{$\pm$0.098} \tiny{$^\uparrow$}  & 0.981\tiny{$\pm$0.028} \tiny{$^\downarrow$}  & 1.601\tiny{$\pm$0.423} \tiny{$^\uparrow$}  & 1.018\tiny{$\pm$0.029} \tiny{$^\uparrow$}  & 0.912\tiny{$\pm$0.077} \tiny{$^\downarrow$}  \\
+\hline
+\end{tabular}}
+\end{table}

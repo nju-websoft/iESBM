@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Crysis_2> <http://dbpedia.org/property/engine> <http://dbpedia.org/resource/CryEngine> .
+<http://dbpedia.org/resource/Crysis_2> <http://dbpedia.org/ontology/gameEngine> <http://dbpedia.org/resource/CryEngine> .
+<http://dbpedia.org/resource/Crysis_2> <http://dbpedia.org/property/genre> <http://dbpedia.org/resource/First-person_shooter> .
+<http://dbpedia.org/resource/Crysis_2> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/First-person_shooter> .
+<http://dbpedia.org/resource/Crysis_2> <http://dbpedia.org/ontology/computingPlatform> <http://dbpedia.org/resource/Microsoft_Windows> .

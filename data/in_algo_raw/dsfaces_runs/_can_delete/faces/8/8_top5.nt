@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/property/format> <http://dbpedia.org/resource/Gramophone_record>.
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/ontology/musicalBand> <http://dbpedia.org/resource/Elton_John>.
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/property/label> <http://dbpedia.org/resource/MCA_Records>.
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/ontology/recordedIn> <http://dbpedia.org/resource/Trident_Studios>.
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/property/genre> <http://dbpedia.org/resource/Pop_rock>.

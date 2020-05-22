@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/film/12710> <http://data.linkedmdb.org/resource/movie/filmid> "12710"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://data.linkedmdb.org/resource/film/12710> <http://data.linkedmdb.org/resource/movie/editor> <http://data.linkedmdb.org/resource/editor/2661> .
+<http://data.linkedmdb.org/resource/film/12710> <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/en> .
+<http://data.linkedmdb.org/resource/film/12710> <http://data.linkedmdb.org/resource/movie/runtime> "95" .
+<http://data.linkedmdb.org/resource/film/12710> <http://xmlns.com/foaf/0.1/page> <http://www.freebase.com/view/guid/9202a8c04000641f80000000047ba60d> .

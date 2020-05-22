@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/after> <http://dbpedia.org/resource/Carlos_Slim> .
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/before> <http://dbpedia.org/resource/Warren_Buffett> .
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/almaMater> <http://dbpedia.org/resource/Harvard_University> .
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/Harvard_University> .
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/ontology/board> <http://dbpedia.org/resource/Berkshire_Hathaway> .

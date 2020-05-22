@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/property/cctld> <http://dbpedia.org/resource/.pl>.
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/property/establishedEvent> <http://dbpedia.org/resource/Invasion_of_Poland>.
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/property/establishedEvent> <http://dbpedia.org/resource/History_of_Poland_(1918%E2%80%931939)>.
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/property/establishedEvent> <http://dbpedia.org/resource/Polish-Lithuanian_commonwealth>.
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/property/establishedEvent> <http://dbpedia.org/resource/World_War_II>.

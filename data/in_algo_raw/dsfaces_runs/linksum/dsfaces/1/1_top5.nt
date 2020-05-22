@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> <http://dbpedia.org/resource/Democratic_Party_(United_States)>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/region> <http://dbpedia.org/resource/Illinois>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/religion> <http://dbpedia.org/resource/Christian>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Hawaii>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/George_W._Bush>.

@@ -1,0 +1,182 @@
+%metric: LFoP
+\begin{table}[!t]
+\centering
+\caption{RBF Values of Difference between FER and FSR. Metric: LFoP.}
+\label{tab:rbf_LFoP}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+& \multicolumn{2}{|c|}{ESBM-D} & \multicolumn{2}{|c|}{ESBM-L} & \multicolumn{2}{|c|}{FED} \\
+\cline{2-7}
+& $k=5$ & $k=10$ & $k=5$ & $k=10$ & $k=5$ & $k=10$ \\
+\hline
+RANDOM & 0.731 & 0.771 & 0.673 & 0.792 & 0.850 & 0.855 \\
+RELIN & 0.643 & 0.705 & 0.899 & 0.897 & 0.914 & 0.979 \\
+DIVERSUM & 0.930 & 0.719 & 0.749 & 0.830 & 0.596 & 0.853 \\
+FACES & 0.671 & 0.643 & 0.864 & 0.973 & 0.962 & 0.958 \\
+FACES-E & 0.906 & 0.797 & 0.956 & 0.751 & 0.962 & 0.958 \\
+CD & 0.679 & 0.705 & 0.895 & 0.822 & 0.978 & 0.881 \\
+LinkSUM & 0.690 & 0.737 & 0.641 & 0.691 & 0.857 & 0.848 \\
+BAFREC & 0.873 & 0.893 & 0.981 & 0.959 & 0.899 & 0.992 \\
+KAFCA & 0.698 & 0.741 & 0.707 & 0.705 & 0.831 & 0.833 \\
+MPSUM & 0.750 & 0.714 & 0.987 & 0.825 & 0.944 & 0.943 \\
+ESA & 0.634 & 0.648 & 0.935 & 0.910 & 0.979 & 0.970 \\
+DeepLENS & 0.658 & 0.665 & 0.803 & 0.893 & 0.998 & 0.999 \\
+\hline
+\end{tabular}
+\end{table}
+%metric: GFoP
+\begin{table}[!t]
+\centering
+\caption{RBF Values of Difference between FER and FSR. Metric: GFoP.}
+\label{tab:rbf_GFoP}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+& \multicolumn{2}{|c|}{ESBM-D} & \multicolumn{2}{|c|}{ESBM-L} & \multicolumn{2}{|c|}{FED} \\
+\cline{2-7}
+& $k=5$ & $k=10$ & $k=5$ & $k=10$ & $k=5$ & $k=10$ \\
+\hline
+RANDOM & 0.913 & 0.907 & 0.999 & 0.980 & 0.997 & 0.993 \\
+RELIN & 0.955 & 0.974 & 0.994 & 0.983 & 0.984 & 0.952 \\
+DIVERSUM & 0.995 & 0.956 & 0.995 & 0.982 & 0.951 & 0.952 \\
+FACES & 0.937 & 0.937 & 0.957 & 0.979 & 0.926 & 0.937 \\
+FACES-E & 0.999 & 0.991 & 0.965 & 0.970 & 0.926 & 0.937 \\
+CD & 0.949 & 0.966 & 0.999 & 0.992 & 0.971 & 0.971 \\
+LinkSUM & 0.926 & 0.984 & 0.961 & 0.998 & 0.975 & 0.971 \\
+BAFREC & 0.962 & 0.961 & 0.978 & 0.978 & 0.939 & 0.935 \\
+KAFCA & 0.937 & 0.977 & 0.957 & 0.986 & 0.986 & 0.991 \\
+MPSUM & 0.962 & 0.975 & 0.981 & 0.994 & 0.910 & 0.920 \\
+ESA & 0.936 & 0.935 & 0.969 & 0.991 & 0.925 & 0.947 \\
+DeepLENS & 0.941 & 0.924 & 0.994 & 0.991 & 0.957 & 0.994 \\
+\hline
+\end{tabular}
+\end{table}
+%metric: GFoV
+\begin{table}[!t]
+\centering
+\caption{RBF Values of Difference between FER and FSR. Metric: GFoV.}
+\label{tab:rbf_GFoV}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+& \multicolumn{2}{|c|}{ESBM-D} & \multicolumn{2}{|c|}{ESBM-L} & \multicolumn{2}{|c|}{FED} \\
+\cline{2-7}
+& $k=5$ & $k=10$ & $k=5$ & $k=10$ & $k=5$ & $k=10$ \\
+\hline
+RANDOM & 0.787 & 0.787 & 0.717 & 0.803 & 0.919 & 0.971 \\
+RELIN & 0.608 & 0.671 & 0.473 & 0.566 & 0.609 & 0.595 \\
+DIVERSUM & 0.923 & 0.973 & 0.710 & 0.982 & 0.900 & 0.951 \\
+FACES & 0.970 & 0.970 & 0.802 & 0.798 & 0.711 & 0.779 \\
+FACES-E & 0.873 & 0.997 & 0.992 & 0.822 & 0.711 & 0.779 \\
+CD & 0.697 & 0.804 & 0.712 & 0.905 & 0.639 & 0.799 \\
+LinkSUM & 0.881 & 0.979 & 0.941 & 0.851 & 0.602 & 0.740 \\
+BAFREC & 0.875 & 0.925 & 0.779 & 0.854 & 0.600 & 0.692 \\
+KAFCA & 0.879 & 0.894 & 0.962 & 0.875 & 0.753 & 0.912 \\
+MPSUM & 0.957 & 0.917 & 0.905 & 0.943 & 0.822 & 0.826 \\
+ESA & 0.782 & 0.846 & 0.898 & 0.985 & 0.716 & 0.845 \\
+DeepLENS & 0.888 & 0.906 & 0.938 & 0.993 & 0.982 & 0.950 \\
+\hline
+\end{tabular}
+\end{table}
+%metric: PRoV
+\begin{table}[!t]
+\centering
+\caption{RBF Values of Difference between FER and FSR. Metric: PRoV.}
+\label{tab:rbf_PRoV}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+& \multicolumn{2}{|c|}{ESBM-D} & \multicolumn{2}{|c|}{ESBM-L} & \multicolumn{2}{|c|}{FED} \\
+\cline{2-7}
+& $k=5$ & $k=10$ & $k=5$ & $k=10$ & $k=5$ & $k=10$ \\
+\hline
+RANDOM & 0.374 & 0.487 & 0.568 & 0.498 & 0.806 & 0.943 \\
+RELIN & 0.200 & 0.281 & 0.196 & 0.275 & 0.406 & 0.424 \\
+DIVERSUM & 0.529 & 0.579 & 0.261 & 0.594 & 0.728 & 0.968 \\
+FACES & 0.637 & 0.597 & 0.579 & 0.922 & 0.539 & 0.671 \\
+FACES-E & 0.729 & 0.655 & 0.357 & 0.820 & 0.539 & 0.671 \\
+CD & 0.253 & 0.396 & 0.283 & 0.333 & 0.429 & 0.696 \\
+LinkSUM & 0.851 & 0.594 & 0.191 & 0.695 & 0.331 & 0.519 \\
+BAFREC & 0.881 & 0.648 & 0.042 & 0.601 & 0.440 & 0.574 \\
+KAFCA & 0.405 & 0.497 & 0.327 & 0.685 & 0.622 & 0.819 \\
+MPSUM & 0.522 & 0.544 & 0.926 & 0.652 & 0.787 & 0.755 \\
+ESA & 0.392 & 0.513 & 0.406 & 0.952 & 0.520 & 0.713 \\
+DeepLENS & 0.615 & 0.634 & 0.478 & 0.523 & 0.985 & 0.937 \\
+\hline
+\end{tabular}
+\end{table}
+%metric: IoPV
+\begin{table}[!t]
+\centering
+\caption{RBF Values of Difference between FER and FSR. Metric: IoPV.}
+\label{tab:rbf_IoPV}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+& \multicolumn{2}{|c|}{ESBM-D} & \multicolumn{2}{|c|}{ESBM-L} & \multicolumn{2}{|c|}{FED} \\
+\cline{2-7}
+& $k=5$ & $k=10$ & $k=5$ & $k=10$ & $k=5$ & $k=10$ \\
+\hline
+RANDOM & 0.732 & 0.737 & 0.877 & 0.919 & 0.975 & 0.990 \\
+RELIN & 0.603 & 0.695 & 0.748 & 0.798 & 0.848 & 0.844 \\
+DIVERSUM & 0.887 & 0.992 & 0.880 & 0.995 & 0.969 & 0.997 \\
+FACES & 0.938 & 0.992 & 0.920 & 0.925 & 0.931 & 0.954 \\
+FACES-E & 0.858 & 0.979 & 0.991 & 0.952 & 0.931 & 0.954 \\
+CD & 0.722 & 0.839 & 0.909 & 0.969 & 0.852 & 0.933 \\
+LinkSUM & 0.862 & 0.977 & 0.970 & 0.940 & 0.851 & 0.916 \\
+BAFREC & 0.837 & 0.887 & 0.921 & 0.946 & 0.863 & 0.913 \\
+KAFCA & 0.921 & 0.934 & 0.980 & 0.958 & 0.936 & 0.985 \\
+MPSUM & 0.991 & 0.943 & 0.957 & 0.992 & 0.992 & 0.973 \\
+ESA & 0.787 & 0.860 & 0.972 & 0.998 & 0.922 & 0.962 \\
+DeepLENS & 0.894 & 0.926 & 0.976 & 0.993 & 0.969 & 0.974 \\
+\hline
+\end{tabular}
+\end{table}
+%metric: DoP
+\begin{table}[!t]
+\centering
+\caption{RBF Values of Difference between FER and FSR. Metric: DoP.}
+\label{tab:rbf_DoP}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+& \multicolumn{2}{|c|}{ESBM-D} & \multicolumn{2}{|c|}{ESBM-L} & \multicolumn{2}{|c|}{FED} \\
+\cline{2-7}
+& $k=5$ & $k=10$ & $k=5$ & $k=10$ & $k=5$ & $k=10$ \\
+\hline
+RANDOM & 0.477 & 0.476 & 0.526 & 0.675 & 0.967 & 0.879 \\
+RELIN & 0.845 & 0.859 & 0.728 & 0.878 & 0.798 & 0.900 \\
+DIVERSUM & 0.792 & 0.557 & 0.460 & 0.169 & 0.919 & 0.833 \\
+FACES & 0.866 & 0.612 & 0.460 & 0.169 & 0.985 & 0.983 \\
+FACES-E & 0.975 & 0.752 & 0.470 & 0.171 & 0.985 & 0.983 \\
+CD & 0.800 & 0.690 & 0.460 & 0.444 & 0.919 & 0.833 \\
+LinkSUM & 0.545 & 0.556 & 0.205 & 0.355 & 0.787 & 0.741 \\
+BAFREC & 0.936 & 0.786 & 0.676 & 0.867 & 0.934 & 0.967 \\
+KAFCA & 0.985 & 0.969 & 0.460 & 0.358 & 1.000 & 0.977 \\
+MPSUM & 0.800 & 0.641 & 0.460 & 0.263 & 0.919 & 0.833 \\
+ESA & 0.805 & 0.924 & 0.968 & 0.847 & 0.725 & 0.735 \\
+DeepLENS & 0.901 & 0.907 & 0.668 & 0.825 & 0.804 & 0.766 \\
+\hline
+\end{tabular}
+\end{table}
+%metric: DoV
+\begin{table}[!t]
+\centering
+\caption{RBF Values of Difference between FER and FSR. Metric: DoV.}
+\label{tab:rbf_DoV}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+& \multicolumn{2}{|c|}{ESBM-D} & \multicolumn{2}{|c|}{ESBM-L} & \multicolumn{2}{|c|}{FED} \\
+\cline{2-7}
+& $k=5$ & $k=10$ & $k=5$ & $k=10$ & $k=5$ & $k=10$ \\
+\hline
+RANDOM & 0.988 & 0.999 & 0.953 & 0.956 & 0.998 & 0.979 \\
+RELIN & 0.766 & 0.877 & 0.910 & 0.907 & 0.775 & 0.879 \\
+DIVERSUM & 0.980 & 0.990 & 0.970 & 0.965 & 0.965 & 0.993 \\
+FACES & 0.971 & 0.966 & 0.996 & 0.990 & 0.997 & 0.994 \\
+FACES-E & 0.957 & 0.982 & 0.998 & 0.991 & 0.997 & 0.994 \\
+CD & 0.956 & 0.977 & 0.959 & 0.968 & 0.957 & 0.964 \\
+LinkSUM & 0.960 & 0.936 & 0.917 & 0.853 & 0.955 & 0.966 \\
+BAFREC & 0.964 & 0.966 & 0.949 & 0.901 & 0.959 & 0.981 \\
+KAFCA & 0.977 & 0.970 & 0.960 & 0.979 & 0.898 & 0.958 \\
+MPSUM & 0.882 & 0.968 & 0.979 & 0.969 & 0.823 & 0.942 \\
+ESA & 0.917 & 0.963 & 0.953 & 0.975 & 0.868 & 0.912 \\
+DeepLENS & 0.942 & 0.991 & 0.942 & 0.987 & 0.858 & 0.896 \\
+\hline
+\end{tabular}
+\end{table}

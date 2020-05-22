@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/United_States>.
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/ontology/state> <http://dbpedia.org/resource/Texas>.
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Houston>.
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/property/athletics> <http://dbpedia.org/resource/National_Collegiate_Athletic_Association>.
+<http://dbpedia.org/resource/Rice_University> <http://dbpedia.org/ontology/campus> <http://dbpedia.org/resource/Urban_area>.
