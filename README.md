@@ -19,6 +19,8 @@ iESBM: an interpretative Entity Summarization Benchmark on Multiple Datasets.
 * <code>ESBM-L</code>: 50 LinkedMDB entities from [ESBM v1.2](https://w3id.org/esbm/)
 * <code>FED</code>: 50 DBpedia entities from [FACES system](http://wiki.knoesis.org/index.php/FACES)
 
+See [in_ds_raw](https://github.com/nju-websoft/iESBM/tree/master/data/in/in_ds_raw)
+
 # Guidelines
 
 ## Quick Start
@@ -27,14 +29,14 @@ Run the following command:
 <pre>
 python iesbm_eval.py -mode FSR -algo_name youralgo
 </pre>
-Evaluation results will be in directory 'data/out/out_youralgo/algo_metrics/'.
-See the next section for detailed settings.
+Evaluation results will be outputted to directory 'data/out/out_youralgo/'.
+See the next section for detailed configurations.
 
 ## Evaluate Your Results
 The Evaluator can be used to evaluate any general-purpose entity summarizer through the following process:
 
 ### Required Input Format
-To evaluate your algorithm, please generate summaries for entities from the three datasets and organize the directory of summaries as follows (see [summ_example]()):
+To evaluate your algorithm, please generate summaries for entities from the three datasets and organize the directory of summaries as follows (see [youralgo](https://github.com/nju-websoft/iESBM/tree/master/data/algosumm/youralgo) as example):
 <pre>
 ├── ${algo_name}
 │   ├── ${ds_name}
@@ -42,9 +44,10 @@ To evaluate your algorithm, please generate summaries for entities from the thre
 │   │   │   ├── ${eid}_top5.nt
 │   │   │   ├── ${eid}_top10.nt
 </pre>
-where ${algo_name} is the name of your entity summarization algorithm, e.g. 'relin', 'diversum', 'youralgo'. 
-${ds_name} is the alias for dataset, 'dbpedia' for ESBM-D, 'lmdb' for ESBM-L, 'dsfaces' for FED.
-${eid} is an integer as the unique identifier for each entity, see elist.txt file in each dataset.
+where 
+* ${algo_name} is the name of your entity summarization algorithm, e.g. 'relin', 'diversum', 'youralgo';
+* ${ds_name} is the alias for dataset, 'dbpedia' for ESBM-D, 'lmdb' for ESBM-L, 'dsfaces' for FED;
+* ${eid} is an integer as the unique identifier for each entity, see elist.txt file in each dataset.
 
 ### Run the Evaluator
 Please put the folder ${algo_name}/ under directory 'data/algosumm/', and run [iesbm_eval.py](https://github.com/nju-websoft/iESBM/blob/master/code/iesbm_eval.py) by the following command:
@@ -52,7 +55,7 @@ Please put the folder ${algo_name}/ under directory 'data/algosumm/', and run [i
 python iesbm_eval.py -algo_name ${algo_name} [-feature_name ${feature_name} -ds_name ${ds_name} -topk ${topk} -mode ${mode}]
 </pre>
 where parameter <code>-algo_name</code> is necessary when you want to get 'FSR' results of an algorithm, and optional parameters:
- * <code>-feature_name</code> accept values: 'LFoP', 'GFoP', 'GFoV', 'IoPV', 'DoP' and 'DoV'.
+ * <code>-feature_name</code> accept values: 'LFoP', 'GFoP', 'GFoV', 'IoPV', 'DoP' and 'DoV';
  * <code>-topk</code> accept two values: 'top5' for k=5 summaries, and 'top10' for k=10 summaries;
  * <code>-mode</code> accept three values: 'FER' for only output FER results, 'FSR' for only output FSR results, and 'all' for output both.
 
@@ -81,7 +84,7 @@ where ${significance_with_FER} composed of two values: t-statistic and p-value o
 
 ## Add New Feature
 You can add customized features to the evaluator according to following process: 
-### Triple-level feature
+### Add Triple-level Feature
 Firstly, compute feature score for each triple in dataset ${ds_name}, and output these information to a file named '${fname}_${ds_name}.txt' (where ${fname} is the name of your new feature, e.g. 'GFoV').
 In this file, with each line contains the following items (items are splitted by tab, see [GFoP_dbpedia.txt](https://github.com/nju-websoft/iESBM/blob/master/data/in/in_ds_feature/GFoP_dbpedia.txt) as example):
 <pre>
@@ -102,7 +105,7 @@ python iesbm_gen.py ${fname}
 
 Finally, this new feature can be used by setting parameter '-feature ${feature_name}' when running <code>iesbm_eval.py</code>
 
-### Summary-level feature
+### Add Summary-level Feature
 First, implement a new subclass of <code>f_base.Feature</code> and name this class as 'F_${fname}' (see class F_DoP, F_DoV in [f_imp.py]() as example).
 In this class, define the method to get feature score for an entity in function <code>self._get_score_by_sscore()</code>.
 
