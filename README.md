@@ -18,7 +18,7 @@ iESBM: an interpretative Entity Summarization Benchmark on Multiple Datasets.
 # Usage
 ## A Quick Start
 Suppose you want to evaluate your algorithm named 'youralgo', and its summaries generated for entities from the three datasets are in directory 'data/algosumm/youralgo/'.
-Run the following commond:
+Run the following command:
 <pre>
 python iesbm_eval.py -mode FSR -algo_name youralgo
 </pre>
