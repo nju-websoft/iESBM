@@ -43,7 +43,7 @@ def gen_fer(fname, ds_name, topk):
 
 	#==== output
 	print(fname, ds_name, topk.name,
-	      'FER:', np.mean(fer_list), np.std(fer_list), fer_sig_with1)
+	      'FER: mean={}, std={}, sigWith1 (t,p)={}'.format(np.mean(fer_list), np.std(fer_list), fer_sig_with1))
 	with open(out_file, 'w', encoding='utf-8') as fout:
 		fout.writelines(line_list)
 
