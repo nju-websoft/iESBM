@@ -104,7 +104,7 @@ Run [iesbm_gen.py](https://github.com/nju-websoft/iESBM/blob/master/code/iesbm_g
 python iesbm_gen.py ${fname}
 </pre>
 
-Finally, this new feature can be used by setting parameter '-feature ${feature_name}' when running <code>iesbm_eval.py</code>
+Finally, this new feature can be used by setting parameter '-feature_name ${feature_name}' when running <code>iesbm_eval.py</code>
 
 ### Add Summary-level Feature
 First, implement a new subclass of <code>f_base.Feature</code> and name this class as 'F_${fname}' (see class F_DoP, F_DoV in [f_imp.py]() as example).
@@ -121,7 +121,7 @@ Run <code>iesbm_gen.py</code> to generate FER files for this new feature:
 python iesbm_gen.py ${feature_name}
 </pre>
 
-Finally, this new feature can be used by setting parameter '-feature ${feature_name}' when running <code>iesbm_eval.py</code>
+Finally, this new feature can be used by setting parameter '-feature_name ${feature_name}' when running <code>iesbm_eval.py</code>
 
 # Evaluation Results
 
