@@ -81,6 +81,7 @@ Statistical information of the evaluation results will be printed to the concole
 ${feature_name}, ${ds_name}, ${topk}, ${mean_FSR}, ${std_FSR}, ${significance_with_FER}
 ```
 where ${significance_with_FER} composed of two values: t-statistic and p-value of the t-test.
+Meanwhile, these results will be outputted to file <code>out_${algo_name}/result_statics_FSR.txt</code>, see [out_youralgo/result_statics_FSR.txt](https://github.com/nju-websoft/iESBM/blob/master/data/out/out_youralgo/result_statics_FSR.txt) as example.
 
 ## Add New Feature
 You can add customized features to the evaluator according to following process: 
