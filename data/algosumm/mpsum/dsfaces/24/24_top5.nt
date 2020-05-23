@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/locationCountry> <http://dbpedia.org/resource/Italy> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/parentCompany> <http://dbpedia.org/resource/Fiat> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/property/parent> <http://dbpedia.org/resource/Fiat> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/foundedBy> <http://dbpedia.org/resource/Enzo_Ferrari> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/property/founder> <http://dbpedia.org/resource/Enzo_Ferrari> .

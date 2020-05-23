@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/executiveProducer> <http://dbpedia.org/resource/Baywatch>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/format> <http://dbpedia.org/resource/Stereophonic_sound>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Hawaii>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/creator> <http://dbpedia.org/resource/Baywatch>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/audioFormat> <http://dbpedia.org/resource/Monaural>.

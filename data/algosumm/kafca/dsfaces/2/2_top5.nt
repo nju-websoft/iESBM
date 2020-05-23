@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Friedrich_Engel_(mathematician)> <http://dbpedia.org/property/workplaces> <http://dbpedia.org/resource/University_of_Giessen> .
+<http://dbpedia.org/resource/Friedrich_Engel_(mathematician)> <http://dbpedia.org/property/doctoralStudents> <http://dbpedia.org/resource/Abraham_Plessner> .
+<http://dbpedia.org/resource/Friedrich_Engel_(mathematician)> <http://dbpedia.org/ontology/doctoralStudent> <http://dbpedia.org/resource/Abraham_Plessner> .
+<http://dbpedia.org/resource/Friedrich_Engel_(mathematician)> <http://dbpedia.org/property/fields> <http://dbpedia.org/resource/Mathematics> .
+<http://dbpedia.org/resource/Friedrich_Engel_(mathematician)> <http://dbpedia.org/ontology/field> <http://dbpedia.org/resource/Mathematics> .

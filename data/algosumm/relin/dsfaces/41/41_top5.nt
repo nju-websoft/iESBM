@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/ontology/sourcePosition> <http://dbpedia.org/resource/Nile__sourcePosition__1>.
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/ontology/sourcePosition> <http://dbpedia.org/resource/Nile__sourcePosition__2>.
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/ontology/sourceMountain> <http://dbpedia.org/resource/Lake_Tana>.
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/property/city> <http://dbpedia.org/resource/Khartoum>.
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Khartoum>.

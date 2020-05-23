@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/after> <http://dbpedia.org/resource/Carlos_Slim>.
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/List_of_college_dropout_billionaires>.
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/before> <http://dbpedia.org/resource/Warren_Buffett>.
+<http://dbpedia.org/resource/Bill_Gates> <http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/4/4a/BillGates2012.jpg>.
+<http://dbpedia.org/resource/Bill_Gates> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Bill_Gates>.

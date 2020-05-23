@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/stateParty> <http://dbpedia.org/resource/Netherlands>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/populationBlank1Title> <http://dbpedia.org/resource/Demonym>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/North_Holland>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/postalCodeType> <http://dbpedia.org/resource/List_of_postal_codes_in_the_Netherlands>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/subdivisionType> <http://dbpedia.org/resource/COROP>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/ontology/timeZone> <http://dbpedia.org/resource/Central_European_Time>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/subdivisionName> <http://dbpedia.org/resource/Netherlands>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/leaderName> <http://dbpedia.org/resource/Eberhard_van_der_Laan>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/populationBlank1Title> <http://dbpedia.org/resource/Randstad>.
+<http://dbpedia.org/resource/Amsterdam> <http://dbpedia.org/property/leaderName> <http://dbpedia.org/resource/Andr%C3%A9e_van_Es>.

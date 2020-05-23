@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/film/6213> <http://data.linkedmdb.org/resource/movie/runtime> "109" .
+<http://data.linkedmdb.org/resource/film/6213> <http://data.linkedmdb.org/resource/movie/music_contributor> <http://data.linkedmdb.org/resource/music_contributor/4082> .
+<http://data.linkedmdb.org/resource/film/6213> <http://data.linkedmdb.org/resource/movie/genre> <http://data.linkedmdb.org/resource/film_genre/23> .
+<http://data.linkedmdb.org/resource/film/6213> <http://dbpedia.org/property/hasPhotoCollection> <http://www4.wiwiss.fu-berlin.de/flickrwrappr/photos/The_Handmaid's_Tale_(film)> .
+<http://data.linkedmdb.org/resource/film/6213> <http://data.linkedmdb.org/resource/movie/producer> <http://data.linkedmdb.org/resource/producer/11068> .

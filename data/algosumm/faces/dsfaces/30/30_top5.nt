@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/borderingstates> <http://dbpedia.org/resource/Louisiana>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/lowestpoint> <http://dbpedia.org/resource/Gulf_of_Mexico>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/southeast> <http://dbpedia.org/resource/Gulf_of_Mexico>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/candidate> <http://dbpedia.org/resource/Barack_Obama>.
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/office> <http://dbpedia.org/resource/List_of_U.S._states_by_date_of_statehood>.

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Norway> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Norway>.
+<http://dbpedia.org/resource/Norway> <http://dbpedia.org/property/west> <http://dbpedia.org/resource/Atlantic_Ocean>.
+<http://dbpedia.org/resource/Norway> <http://dbpedia.org/property/timeZoneDst> <http://dbpedia.org/resource/Central_European_Time>.
+<http://dbpedia.org/resource/Norway> <http://dbpedia.org/property/south> <http://dbpedia.org/resource/Skagerrak>.
+<http://dbpedia.org/resource/Norway> <http://dbpedia.org/property/northeast> <http://dbpedia.org/resource/Barents_Sea>.

@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Adelphi_Has_to_Fly> <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Lucy_Ward_(musician)> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://dbpedia.org/ontology/thumbnail> <http://en.wikipedia.org/wiki/Special:FilePath/LucyWard.jpg?width=300> .
+<http://dbpedia.org/resource/O'Hooley_&_Tidow> <http://dbpedia.org/ontology/associatedMusicalArtist> <http://dbpedia.org/resource/Lucy_Ward_(musician)> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/ConcertinaPlayers> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Music_in_Derby> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://dbpedia.org/ontology/birthDate> "1989-12-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Singer-songwriter> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://dbpedia.org/ontology/recordLabel> <http://dbpedia.org/resource/Navigator_Records> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://xmlns.com/foaf/0.1/homepage> <http://www.lucywardsings.com/> .
+<http://dbpedia.org/resource/Lucy_Ward_(musician)> <http://xmlns.com/foaf/0.1/name> "Ward, Lucy"@en .

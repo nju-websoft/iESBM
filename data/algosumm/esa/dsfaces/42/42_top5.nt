@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/academicAdvisor> <http://dbpedia.org/resource/Adam_Sedgwick> .
+<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/academicAdvisor> <http://dbpedia.org/resource/John_Stevens_Henslow> .
+<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/ontology/field> <http://dbpedia.org/resource/Natural_history> .
+<http://dbpedia.org/resource/Charles_Darwin> <http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/2/2e/Charles_Darwin_seated_crop.jpg> .
+<http://dbpedia.org/resource/Charles_Darwin> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Charles_Darwin> .

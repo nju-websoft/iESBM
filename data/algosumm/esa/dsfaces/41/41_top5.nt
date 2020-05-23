@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Cairo> .
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Jinja,_Uganda> .
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Juba> .
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/property/city> <http://dbpedia.org/resource/Cairo> .
+<http://dbpedia.org/resource/Nile> <http://dbpedia.org/property/city> <http://dbpedia.org/resource/Jinja,_Uganda> .

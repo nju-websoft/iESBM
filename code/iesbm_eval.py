@@ -135,7 +135,94 @@ def gen_summtid_files_from_runfile(in_algo_dir, ds_name, topk, algo_name=None):
 		fout.writelines(line_list)
 	return out_file_path
 
-def do_print_table(table_info, ds_list, topk_list, fname_list, FSR_row_name_display_list=None):
+
+def _do_print_table(table_info, ds_list, topk_list, fname_list, out_algo_dir, algo_list=None):
+	key_items = [key.split('_') for key in table_info.keys()]
+	fscope_list = list(set([item[0] for item in key_items])) # FER, FSR
+	# ds_list = list(set([item[1] for item in key_items]))
+	# topk_list = list(set([TOPK[item[2]] for item in key_items]))
+	# fname_list = list(set([item[3] for item in key_items]))
+	print('fscope_list:',fscope_list)
+
+	#=== FER tables:
+	if 'FER' in fscope_list:
+		table_keys = topk_list
+		table_leading = '============ FER of Features %s\n\t%s \n'
+		table_line_list = [[table_leading%(topk.name, '\t'.join(fname_list))] for topk in topk_list] # each topk one table
+		for ki, item in enumerate(table_keys):
+			for ds_name in ds_list: # add row heads
+				ds_label = ds_name.replace('dbpedia','ESBM-D').replace('lmdb', 'ESBM-L').replace('dsfaces', 'FED')
+				table_line_list[ki].append(ds_label)
+		for ki, item in enumerate(table_keys): # for each table
+			topk = item
+			for di, ds_name in enumerate(ds_list): # for each row
+				for fname in fname_list: # one col in table
+					key = 'FER_{}_{}_{}'.format(ds_name,topk.name, fname)
+					fer_mean, fer_std, fer_sig = table_info.get(key)
+					std_str = '(±%.3f)' % fer_std
+					sig_t = fer_sig[0]
+					sig_p = fer_sig[1]
+					sig_str = ''
+					if sig_p<0.01: # significance
+						sig_str =  '↑' if sig_t>0 else '↓'
+					table_line_list[ki][di + 1] += ' \t %.3f%s %s ' % (fer_mean, std_str, sig_str)  # add to row di+1
+		#== table endings
+		table_ending = '\n'
+		for kj, item in enumerate(table_keys): # each table
+			for dj, ds_name in enumerate(ds_list): # each row
+				table_line_list[kj][dj+1] = '{} \n'.format(table_line_list[kj][dj+1])
+			table_line_list[kj].append(table_ending)
+		out_table_file = os.path.join(OUT_DIR if len(algo_list)>1 else out_algo_dir, 'result_statics_FER.txt')
+		with open(out_table_file, 'w', encoding='utf-8') as fout:
+			for kj, item in enumerate(table_keys):
+				# fout.write('%table: {}\n'.format(item))
+				fout.writelines(table_line_list[kj])
+
+	if 'FSR' in fscope_list:
+		table_leading = '============ FSR of Features %s %s \n\t %s \n'
+
+		table_keys = [(topk, ds_name) for topk in topk_list for ds_name in ds_list]
+		table_line_list = [[table_leading % (ds_name.replace('dbpedia','ESBM-D').replace('lmdb', 'ESBM-L').replace('dsfaces', 'FED')
+		                                     , topk.name, '\t'.join(fname_list))] for topk in
+		                   topk_list for ds_name in ds_list]  # each topk one table
+
+		for ki, item in enumerate(table_keys):
+			ds_name = item[1]
+			for row_name_display in algo_list:  # add row heads (i.e. algo_name)
+				table_line_list[ki].append(row_name_display)
+		for ki, item in enumerate(table_keys):
+			topk = item[0]
+			ds_name = item[1]
+			for di, row_name_display in enumerate(algo_list): # for each row
+				for fname in fname_list: # one col in table
+					key = 'FSR_{}_{}_{}_{}'.format(ds_name,topk.name, fname, row_name_display)
+					fsr_mean, fsr_std, fsr_sig = table_info.get(key)
+					# print('dddd:',fsr_mean, fsr_std, fsr_sig)
+					std_str = '(±%.3f)' % fsr_std
+					sig_t = fsr_sig[0]
+					sig_p = fsr_sig[1]
+					sig_str = ''
+					if sig_p>0.01: # not significance
+						sig_str =  '•'#'&#8226;' # bullet
+					# table_line_list[ki][di + 1] += '<td>%.3f<small>(&#177;%.3f)</small>%s</td>' % (fsr_mean, fsr_std, sig_str)  # add to row di+1
+					table_line_list[ki][di + 1] += '\t %.3f%s %s' % (fsr_mean, std_str, sig_str)  # add to row di+1
+
+		#== table endings
+		table_ending = '\n'
+		for kj, item in enumerate(table_keys): # each table
+			for dj, row_name_display in enumerate(algo_list): # each row
+				table_line_list[kj][dj+1] = '{} \n'.format(table_line_list[kj][dj+1])
+			table_line_list[kj].append(table_ending)
+
+		out_table_file = os.path.join(OUT_DIR if len(algo_list)>1 else out_algo_dir, 'result_statics_FSR.txt')
+		print('out to file:', out_table_file)
+		with open(out_table_file, 'w', encoding='utf-8') as fout:
+			for kj, item in enumerate(table_keys):
+				# fout.write('%table: {}\n'.format(item))
+				fout.writelines(table_line_list[kj])
+
+
+def _do_print_table_html(table_info, ds_list, topk_list, fname_list, FSR_row_name_display_list=None):
 	key_items = [key.split('_') for key in table_info.keys()]
 	fscope_list = list(set([item[0] for item in key_items])) # FER, FSR
 	# ds_list = list(set([item[1] for item in key_items]))
@@ -222,14 +309,101 @@ def do_print_table(table_info, ds_list, topk_list, fname_list, FSR_row_name_disp
 					table_line_list[kj][dj+1] = '{}</tr>\n'.format(table_line_list[kj][dj+1])
 			table_line_list[kj].append(table_ending)
 
-		out_table_file = os.path.join(OUT_DIR, 'table_forGit_FSR.txt')
+		out_table_file = os.path.join(OUT_DIR, 'table_forGit_FSR{}.txt'.format(FSR_row_name_display_list[0] if len(FSR_row_name_display_list)==1 else ''))
+		with open(out_table_file, 'w', encoding='utf-8') as fout:
+			for kj, item in enumerate(table_keys):
+				# fout.write('%table: {}\n'.format(item))
+				fout.writelines(table_line_list[kj])
+
+def _do_print_table_latex(table_info, ds_list, topk_list, fname_list, FSR_row_name_display_list=None):
+	key_items = [key.split('_') for key in table_info.keys()]
+	fscope_list = list(set([item[0] for item in key_items])) # FER, FSR
+	# ds_list = list(set([item[1] for item in key_items]))
+	# topk_list = list(set([TOPK[item[2]] for item in key_items]))
+	# fname_list = list(set([item[3] for item in key_items]))
+	print('fscope_list:',fscope_list)
+
+	#=== FER tables:
+	if 'FER' in fscope_list:
+		table_keys = topk_list
+		table_leading = '\\begin{table}[!t]\n\\centering\n\\caption{FER of Features %s}\n\\label{tab:fer_rmAll_%s}\n\\resizebox{\\textwidth}{!}{\n\\begin{tabular}{|l|ll|ll|l|ll|l|}\n\\hline\n & %s \\\\\n\\hline\n'
+		table_line_list = [[table_leading%(topk.name, topk.name, ' & '.join(fname_list))] for topk in topk_list] # each topk one table
+		for ki, item in enumerate(table_keys):
+			for ds_name in ds_list: # add row heads
+				ds_label = ds_name.replace('dbpedia','ESBM-D').replace('lmdb', 'ESBM-L').replace('dsfaces', 'FED')
+				table_line_list[ki].append(ds_label)
+		for ki, item in enumerate(table_keys): # for each table
+			topk = item
+			for di, ds_name in enumerate(ds_list): # for each row
+				for fname in fname_list: # one col in table
+					key = 'FER_{}_{}_{}'.format(ds_name,topk.name, fname)
+					fer_mean, fer_std, fer_sig = table_info.get(key)
+					std_str = '\\tiny{$\\pm$%.3f}' % fer_std
+					sig_t = fer_sig[0]
+					sig_p = fer_sig[1]
+					sig_str = ''
+					if sig_p<0.01: # significance
+						sig_str =  '\\tiny{$^\\uparrow$}' if sig_t>0 else '\\tiny{$^\\downarrow$}'
+					table_line_list[ki][di + 1] += ' & %.3f%s %s ' % (fer_mean, std_str, sig_str)  # add to row di+1
+		#== table endings
+		table_ending = '\\hline\n\\end{tabular}}\n\\end{table}\n'
+		for kj, item in enumerate(table_keys): # each table
+			for dj, ds_name in enumerate(ds_list): # each row
+				table_line_list[kj][dj+1] = '{} \\\\\n'.format(table_line_list[kj][dj+1])
+			table_line_list[kj].append(table_ending)
+		out_table_file = os.path.join(OUT_DIR, 'table_forLatex_FER.txt')
+		with open(out_table_file, 'w', encoding='utf-8') as fout:
+			for kj, item in enumerate(table_keys):
+				# fout.write('%table: {}\n'.format(item))
+				fout.writelines(table_line_list[kj])
+
+	if 'FSR' in fscope_list:
+		table_leading = '\\begin{table}[!t]\n\\centering\n\\caption{FSR of Features %s %s}\n\\label{tab:fsr_rmAll-%s-%s}\n\\resizebox{\\textwidth}{!}{\n\\begin{tabular}{|l|ll|l|l|ll|}\n\\hline\n & %s \\\\\n\\hline\n'
+
+		table_keys = [(topk, ds_name) for topk in topk_list for ds_name in ds_list]
+		table_line_list = [[table_leading % (ds_name, topk.name, ds_name, topk.name, ' & '.join(fname_list))] for topk in
+		                   topk_list for ds_name in ds_list]  # each topk one table
+
+		for ki, item in enumerate(table_keys):
+			ds_name = item[1]
+			for row_name_display in FSR_row_name_display_list:  # add row heads (i.e. algo_name)
+				# table_line_list[ki].append(row_name_display)
+				if ds_name!='dsfaces' and row_name_display in ['FACES', 'LinkSUM']:
+					table_line_list[ki].append('%'+row_name_display)
+				else:
+					table_line_list[ki].append(row_name_display)
+		for ki, item in enumerate(table_keys):
+			topk = item[0]
+			ds_name = item[1]
+			for di, row_name_display in enumerate(FSR_row_name_display_list): # for each row
+				for fname in fname_list: # one col in table
+					key = 'FSR_{}_{}_{}_{}'.format(ds_name,topk.name, fname, row_name_display)
+					fsr_mean, fsr_std, fsr_sig = table_info.get(key)
+					# print('dddd:',fsr_mean, fsr_std, fsr_sig)
+					std_str = '\\tiny{$\\pm$%.3f}' % fsr_std
+					sig_t = fsr_sig[0]
+					sig_p = fsr_sig[1]
+					sig_str = ''
+					if sig_p>0.01: # not significance
+						sig_str =  '\\tiny{$^\\bullet$}'#'&#8226;' # bullet
+					# table_line_list[ki][di + 1] += '<td>%.3f<small>(&#177;%.3f)</small>%s</td>' % (fsr_mean, fsr_std, sig_str)  # add to row di+1
+					table_line_list[ki][di + 1] += '& %.3f%s %s' % (fsr_mean, std_str, sig_str)  # add to row di+1
+
+		#== table endings
+		table_ending = '\\hline\n\\end{tabular}\n\\end{table}\n'
+		for kj, item in enumerate(table_keys): # each table
+			for dj, row_name_display in enumerate(FSR_row_name_display_list): # each row
+				table_line_list[kj][dj+1] = '{} \\\\\n'.format(table_line_list[kj][dj+1])
+			table_line_list[kj].append(table_ending)
+
+		out_table_file = os.path.join(OUT_DIR, 'table_forLatex_FSR.txt')
 		with open(out_table_file, 'w', encoding='utf-8') as fout:
 			for kj, item in enumerate(table_keys):
 				# fout.write('%table: {}\n'.format(item))
 				fout.writelines(table_line_list[kj])
 
 
-def _print_default_tables():
+def print_default_tables():
 	mode = 'all'
 	ds_list = ['dbpedia','lmdb','dsfaces']
 	topk_list = [TOPK.top5, TOPK.top10]
@@ -255,10 +429,10 @@ def _print_default_tables():
 			      , ds_name.replace('dbpedia','ESBM-D').replace('lmdb', 'ESBM-L').replace('dsfaces', 'FED')
 			      , topk.name)
 			# 1. do parse for algo
-			summtid_file_path = gen_summtid_files_from_runfile(algo_dir, ds_name, topk, args.algo_name)
+			summtid_file_path = gen_summtid_files_from_runfile(algo_dir, ds_name, topk, algo_name)
 			# 2. do eval
-			if args.mode!='FER':
-				out_metric_dir = os.path.join(OUT_DIR, 'out_%s'%args.algo_name, 'algo_metrics')
+			if mode!='FER':
+				out_metric_dir = os.path.join(OUT_DIR, 'out_%s'%algo_name, 'algo_metrics')
 				if not os.path.exists(out_metric_dir):
 					os.mkdir(out_metric_dir)
 				print('output FSR to dir: %s'%(out_metric_dir))
@@ -271,19 +445,21 @@ def _print_default_tables():
 				if mode!='FER':
 					fsr_results = do_eval(algo_name, fname, ds_name, topk, summtid_file_path,out_metric_dir)
 					table_info['FSR_{}_{}_{}_{}'.format(ds_name,topk.name, fname, algo_display_list[ai])]=fsr_results
-	do_print_table(table_info, ds_list, topk_list, fname_list,algo_display_list)
+	_do_print_table_html(table_info, ds_list, topk_list, fname_list,algo_display_list)
+	_do_print_table_latex(table_info, ds_list, topk_list, fname_list,algo_display_list)
 
 
 
 if __name__ == '__main__':
+	# print_default_tables()
 	parser = argparse.ArgumentParser(description='iESBM: evaluate entity summarizer')
-	parser.add_argument('mode', type=str, default='all', help="values: 'FER' for only output FER resutls; 'FSR' for only output FSR results of algorithm; 'all' for output all reasults;")
+	parser.add_argument('-mode', type=str, default='all', help="values: 'FER' for only output FER resutls; 'FSR' for only output FSR results of algorithm; 'all' for output all reasults;")
 	parser.add_argument('-algo_name', type=str, help="Name of the entity summmarization algorithm to be evaluated, output files will in directory named; out_${algo_name}")
 	parser.add_argument('-algodir', default=None, type=str, help='directory of the generated summaries, with sub-directory ${ds_name}/${eid}/')
 	parser.add_argument('-feature_name', default=None, type=str, help="Name of the feature, values: 'LFoP', 'GFoP', 'GFoV', 'IoPV', 'DoP' and 'DoV', or customized feature.")
 	parser.add_argument('-ds_name', default=None, type=str, help="Name of the dataset, values: 'dbpedia' for ESBM-D, 'lmdb' for ESBM-L, 'dsfaces' for FED.")
 	parser.add_argument("-topk", default=None, type=lambda topK: TOPK[topK], help="string, 'top5' or 'top10'")
-	parser.add_argument("-print_table", default=False, type=bool, help="whether to print table for showring the results'")
+	# parser.add_argument("-print_table", default=False, type=bool, help="Whether to print table for showing the results'. If True, will generate file table_forGit_FSR.txt and table_forGit_FER.txt in data/out/")
 	args = parser.parse_args()
 
 	if args.mode not in ['all', 'FER', 'FSR']:
@@ -296,6 +472,13 @@ if __name__ == '__main__':
 	topk_list = [TOPK.top5, TOPK.top10] if args.topk is None else [args.topk]
 	fname_list = ['LFoP', 'GFoP', 'GFoV', 'IoPV', 'DoP', 'DoV'] if args.feature_name is None else [args.feature_name]
 
+	if args.mode!='FER':
+		out_algo_dir = os.path.join(OUT_DIR, 'out_%s'%args.algo_name)
+		out_metric_dir = os.path.join(OUT_DIR, 'out_%s'%args.algo_name, 'algo_metrics')
+		if not os.path.exists(out_metric_dir):
+			os.makedirs(out_metric_dir)
+		print('output FSR to dir: %s'%(out_metric_dir))
+
 	table_info = dict()
 	for ds_name in ds_list:
 		for topk in topk_list:
@@ -307,11 +490,6 @@ if __name__ == '__main__':
 			# 1. do parse for algo
 			summtid_file_path = gen_summtid_files_from_runfile(algo_dir, ds_name, topk, args.algo_name) if args.mode!='FER' else None
 			# 2. do eval
-			if args.mode!='FER':
-				out_metric_dir = os.path.join(OUT_DIR, 'out_%s'%args.algo_name, 'algo_metrics')
-				if not os.path.exists(out_metric_dir):
-					os.mkdir(out_metric_dir)
-				print('output FSR to dir: %s'%(out_metric_dir))
 			for fname in fname_list:
 				# 2.1 FER results
 				if args.mode!='FSR':
@@ -321,8 +499,7 @@ if __name__ == '__main__':
 				if args.mode!='FER':
 					fsr_results = do_eval(args.algo_name, fname, ds_name, topk, summtid_file_path,out_metric_dir)
 					table_info['FSR_{}_{}_{}_{}'.format(ds_name,topk.name, fname, args.algo_name)]=fsr_results
-	if args.print_table:
-		do_print_table(table_info, ds_list, topk_list, fname_list,[args.algo_name])
+	_do_print_table(table_info, ds_list, topk_list, fname_list, out_algo_dir,[args.algo_name])
 
 
 

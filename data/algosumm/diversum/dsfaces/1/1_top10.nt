@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/profession> <http://dbpedia.org/resource/Constitutional_law>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/Occidental_College>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/child> <http://dbpedia.org/resource/Malia_Obama>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/George_W._Bush>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Hawaii>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/Roland_Burris>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/termPeriod> <http://dbpedia.org/resource/Barack_Obama__2>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/children> <http://dbpedia.org/resource/Family_of_Barack_Obama>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/successor> <http://dbpedia.org/resource/Roland_Burris>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/party> <http://dbpedia.org/resource/Democratic_Party_(United_States)>.

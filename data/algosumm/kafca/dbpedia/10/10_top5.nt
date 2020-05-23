@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Bampton,_Oxfordshire> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:1971_deaths> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/serviceEndYear> "1947"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/serviceStartYear> "1914"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Knights_Commander_of_the_Order_of_the_British_Empire> .

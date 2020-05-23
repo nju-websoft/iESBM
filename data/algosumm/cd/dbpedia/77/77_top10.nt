@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Saint-Raphaël,_Var> <http://dbpedia.org/ontology/inseeCode> "83118" .
+<http://dbpedia.org/resource/Prince_Carlo,_Duke_of_Castro> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Saint-Raphaël,_Var> .
+<http://dbpedia.org/resource/Saint-Raphaël,_Var> <http://www.w3.org/2000/01/rdf-schema#label> "Saint-Raphaël, Var"@en .
+<http://dbpedia.org/resource/Saint-Raphaël,_Var> <http://dbpedia.org/ontology/postalCode> "83700 and 83530" .
+<http://dbpedia.org/resource/Saint-Raphaël,_Var> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.4252"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Saint-Raphaël,_Var> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "6.7684"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://dbpedia.org/resource/Saint-Raphaël,_Var> <http://dbpedia.org/ontology/area> "8.959E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Saint-Raphaël,_Var> <http://dbpedia.org/ontology/maximumElevation> "560.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Stade_Louis_Hon> <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Saint-Raphaël,_Var> .
+<http://dbpedia.org/resource/Saint-Raphaël,_Var> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/MairieStRaphaël.JPG?width=300> .

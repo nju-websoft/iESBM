@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Roderick_Carr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryPerson> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/World_War_II> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:1891_births> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:1971_deaths> .
+<http://dbpedia.org/resource/Roderick_Carr> <http://www.w3.org/2000/01/rdf-schema#label> "Roderick Carr"@en .

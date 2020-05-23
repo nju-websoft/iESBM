@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/film/6191> <http://data.linkedmdb.org/resource/movie/music_contributor> <http://data.linkedmdb.org/resource/music_contributor/180> .
+<http://data.linkedmdb.org/resource/interlink/61136> <http://data.linkedmdb.org/resource/oddlinker/link_source> <http://data.linkedmdb.org/resource/film/6191> .
+<http://data.linkedmdb.org/resource/film/6191> <http://data.linkedmdb.org/resource/movie/filmid> "6191"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://data.linkedmdb.org/resource/film/6191> <http://data.linkedmdb.org/resource/movie/cinematographer> <http://data.linkedmdb.org/resource/cinematographer/1122> .
+<http://data.linkedmdb.org/resource/film/6191> <http://xmlns.com/foaf/0.1/based_near> <http://sws.geonames.org/1861060/> .

@@ -1,0 +1,10 @@
+13	http://dbpedia.org/resource/Amsterdam
+19	http://dbpedia.org/resource/Ann_Arbor,_Michigan
+7	http://dbpedia.org/resource/John_Napier
+3	http://dbpedia.org/resource/Marie_Curie
+22	http://dbpedia.org/resource/Poland
+10	http://dbpedia.org/resource/Total_Recall_(1990_film)
+29	http://dbpedia.org/resource/Friends
+46	http://dbpedia.org/resource/J._C._Penney
+50	http://dbpedia.org/resource/Joe_Biden
+44	http://dbpedia.org/resource/Never_Let_You_Go_(Justin_Bieber_song)

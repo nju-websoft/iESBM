@@ -32,7 +32,8 @@ def get_feature_by_name(fname, ds_name, fpath):
 class F_DoP(Feature):
 	def __init__(self, ds_name, fname='DoP', ftype=FType.F_Set, fpath=None):
 		super().__init__(ds_name, fname, ftype, fpath)
-		self.fpath = os.path.join(ROOT_DIR, 'in', 'in_ds_feature', '{}_{}_tid_propid.txt'.format(self.fname, str(self.ds_name))) if fpath is None else fpath
+		# self.fpath = os.path.join(ROOT_DIR, 'in', 'in_ds_feature', '{}_{}_tid_propid.txt'.format(self.fname, str(self.ds_name))) if fpath is None else fpath
+		self.fpath = os.path.join(IN_DIR, 'in_ds_feature', '{}_{}_tid_propid.txt'.format(self.fname, str(self.ds_name))) if fpath is None else fpath
 		self.tid_propid_dict = self._read_sscore(self.fpath)
 
 	def _read_sscore(self, sf_file):
@@ -59,7 +60,8 @@ class F_DoP(Feature):
 class F_DoV(Feature):
 	def __init__(self, ds_name, fname='DoV', ftype=FType.F_Set, fpath=None):
 		super().__init__(ds_name, fname, ftype, fpath)
-		self.fpath = os.path.join(ROOT_DIR, 'in', 'in_ds_feature', '{}_{}_tpair_nisub.txt'.format(self.fname, self.ds_name)) if fpath is None else fpath
+		# self.fpath = os.path.join(ROOT_DIR, 'in', 'in_ds_feature', '{}_{}_tpair_nisub.txt'.format(self.fname, self.ds_name)) if fpath is None else fpath
+		self.fpath = os.path.join(IN_DIR, 'in_ds_feature', '{}_{}_tpair_nisub.txt'.format(self.fname, self.ds_name)) if fpath is None else fpath
 		self.tpair_nisub_dict = self._read_sscore(self.fpath)
 
 	def _read_sscore(self, sf_file):

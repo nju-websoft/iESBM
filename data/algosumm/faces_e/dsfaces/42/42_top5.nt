@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/nationality> <http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland>.
+<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/birthPlace> <http://dbpedia.org/resource/Shropshire>.
+<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/shortDescription> <http://dbpedia.org/resource/Natural_history>.
+<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/awards> <http://dbpedia.org/resource/Copley_Medal>.
+<http://dbpedia.org/resource/Charles_Darwin> <http://dbpedia.org/property/influenced> <http://dbpedia.org/resource/Joseph_Dalton_Hooker>.

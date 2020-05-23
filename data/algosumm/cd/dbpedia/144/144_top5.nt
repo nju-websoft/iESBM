@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://xmlns.com/foaf/0.1/name> "Pe Maung Tin"@en .
+<http://dbpedia.org/resource/Tee_Tee_Luce> <http://dbpedia.org/ontology/relative> <http://dbpedia.org/resource/Pe_Maung_Tin> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/stateOfOrigin> <http://dbpedia.org/resource/Bamar_people> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/occupation> <http://dbpedia.org/resource/Pali> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://purl.org/dc/elements/1.1/description> "Burma scholar" .

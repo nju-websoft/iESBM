@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Total_Recall_(1990_film)> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Arnold_Schwarzenegger> .
+<http://dbpedia.org/resource/Total_Recall_(1990_film)> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Michael_Ironside> .
+<http://dbpedia.org/resource/Total_Recall_(1990_film)> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Rachel_Ticotin> .
+<http://dbpedia.org/resource/Total_Recall_(1990_film)> <http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/f/f9/Total_recall.jpg> .
+<http://dbpedia.org/resource/Total_Recall_(1990_film)> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Total_Recall_(1990_film)> .

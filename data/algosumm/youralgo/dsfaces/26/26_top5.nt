@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Rob_Bowman_(director)>.
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Rob_Bowman_(filmmaker)>.
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/ontology/director> <http://dbpedia.org/resource/Rob_Bowman_(filmmaker)>.
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/ontology/director> <http://dbpedia.org/resource/Rob_Bowman_(director)>.
+<http://dbpedia.org/resource/Reign_of_Fire_(film)> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Izabella_Scorupco>.

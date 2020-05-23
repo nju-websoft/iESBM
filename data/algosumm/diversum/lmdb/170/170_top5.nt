@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/interlink/138363> <http://data.linkedmdb.org/resource/oddlinker/link_source> <http://data.linkedmdb.org/resource/film/5089> .
+<http://data.linkedmdb.org/resource/film/5089> <http://data.linkedmdb.org/resource/movie/actor> <http://data.linkedmdb.org/resource/actor/40417> .
+<http://data.linkedmdb.org/resource/film/5089> <http://data.linkedmdb.org/resource/movie/performance> <http://data.linkedmdb.org/resource/performance/33877> .
+<http://data.linkedmdb.org/resource/film/5089> <http://xmlns.com/foaf/0.1/page> <http://www.imdb.com/title/tt0038821> .
+<http://data.linkedmdb.org/resource/film/5089> <http://data.linkedmdb.org/resource/movie/director> <http://data.linkedmdb.org/resource/director/13995> .

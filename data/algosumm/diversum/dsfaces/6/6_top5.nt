@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/ontology/location> <http://dbpedia.org/resource/Sunset_Bronson_Studios>.
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/property/location> <http://dbpedia.org/resource/Old_Warner_Brothers_Studio>.
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/ontology/distributor> <http://dbpedia.org/resource/20th_Television>.
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/ontology/presenter> <http://dbpedia.org/resource/Louie_Anderson>.
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/property/presenter> <http://dbpedia.org/resource/Richard_Karn>.

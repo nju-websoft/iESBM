@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/thumbnail> <http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ferrari-Logo.svg/200px-Ferrari-Logo.svg.png> .
+<http://dbpedia.org/resource/Ferrari> <http://xmlns.com/foaf/0.1/homepage> <http://www.ferrari.com/> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/property/homepage> <http://www.ferrari.com/> .
+<http://dbpedia.org/resource/Ferrari> <http://dbpedia.org/ontology/product> <http://dbpedia.org/resource/Supercar> .
+<http://dbpedia.org/resource/Ferrari> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Ferrari?oldid=548559290> .

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Family_Feud> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Family_Feud>.
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/property/runtime> <http://dbpedia.org/resource/CBS>.
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/property/presenter> <http://dbpedia.org/resource/Steve_Harvey>.
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/property/narrated> <http://dbpedia.org/resource/Joey_Fatone>.
+<http://dbpedia.org/resource/Family_Feud> <http://dbpedia.org/ontology/company> <http://dbpedia.org/resource/Georgia_Department_of_Economic_Development>.

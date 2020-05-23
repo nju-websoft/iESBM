@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Sauxillanges> <http://dbpedia.org/ontology/region> <http://dbpedia.org/resource/Auvergne_(region)> .
+<http://dbpedia.org/resource/Sauxillanges> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Communes_of_Puy-de-Dôme> .
+<http://dbpedia.org/resource/Sauxillanges> <http://www.georss.org/georss/point> "45.551 3.372" .
+<http://dbpedia.org/resource/Sauxillanges> <http://dbpedia.org/ontology/area> "2.49E7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Sauxillanges> <http://dbpedia.org/ontology/maximumElevation> "667.0"^^<http://www.w3.org/2001/XMLSchema#double> .

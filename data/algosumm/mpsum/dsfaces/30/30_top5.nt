@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/candidate> <http://dbpedia.org/resource/Mitt_Romney> .
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/lowestpoint> <http://dbpedia.org/resource/Gulf_of_Mexico> .
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/property/southeast> <http://dbpedia.org/resource/Gulf_of_Mexico> .
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/ontology/capital> <http://dbpedia.org/resource/Austin,_Texas> .
+<http://dbpedia.org/resource/Texas> <http://dbpedia.org/ontology/largestCity> <http://dbpedia.org/resource/Houston> .

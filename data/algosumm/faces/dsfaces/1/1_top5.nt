@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/region> <http://dbpedia.org/resource/Illinois>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/George_W._Bush>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/children> <http://dbpedia.org/resource/Family_of_Barack_Obama>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/state> <http://dbpedia.org/resource/Illinois>.
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/profession> <http://dbpedia.org/resource/Author>.

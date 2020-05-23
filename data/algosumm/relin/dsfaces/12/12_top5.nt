@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Czech_Republic> <http://dbpedia.org/ontology/currency> <http://dbpedia.org/resource/Czech_koruna>.
+<http://dbpedia.org/resource/Czech_Republic> <http://dbpedia.org/property/demonym> <http://dbpedia.org/resource/Czechs>.
+<http://dbpedia.org/resource/Czech_Republic> <http://dbpedia.org/property/establishedEvent> <http://dbpedia.org/resource/Dissolution_of_Czechoslovakia>.
+<http://dbpedia.org/resource/Czech_Republic> <http://dbpedia.org/property/establishedEvent> <http://dbpedia.org/resource/Kingdom_of_Bohemia>.
+<http://dbpedia.org/resource/Czech_Republic> <http://dbpedia.org/property/establishedEvent> <http://dbpedia.org/resource/Czechoslovakia>.

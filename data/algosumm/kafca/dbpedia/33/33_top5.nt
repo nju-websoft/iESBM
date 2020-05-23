@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Eastern_Sumatran_rhinoceros> <http://dbpedia.org/ontology/order> <http://dbpedia.org/resource/Odd-toed_ungulate> .
+<http://dbpedia.org/resource/Eastern_Sumatran_rhinoceros> <http://dbpedia.org/ontology/phylum> <http://dbpedia.org/resource/Chordate> .
+<http://dbpedia.org/resource/Eastern_Sumatran_rhinoceros> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Animals_described_in_1965> .
+<http://dbpedia.org/resource/Eastern_Sumatran_rhinoceros> <http://dbpedia.org/ontology/conservationStatus> "EW" .
+<http://dbpedia.org/resource/Eastern_Sumatran_rhinoceros> <http://dbpedia.org/ontology/conservationStatusSystem> "iucn3.1" .

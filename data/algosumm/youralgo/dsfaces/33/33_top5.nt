@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/after> <http://dbpedia.org/resource/Jimmy_MacDonald_(sound_effects_artist)>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Golden_Globe_Cecil_B._DeMille_Award>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Cecil_B._DeMille_Award>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/awards> <http://dbpedia.org/resource/Golden_Globe_Cecil_B._DeMille_Award>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/awards> <http://dbpedia.org/resource/Cecil_B._DeMille_Award>.

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Mortal_Kombat_Trilogy> <http://dbpedia.org/ontology/computingPlatform> <http://dbpedia.org/resource/Game.com> .
+<http://dbpedia.org/resource/Mortal_Kombat_Trilogy> <http://dbpedia.org/property/platforms> <http://dbpedia.org/resource/Game.com> .
+<http://dbpedia.org/resource/Mortal_Kombat_Trilogy> <http://xmlns.com/foaf/0.1/depiction> <http://upload.wikimedia.org/wikipedia/commons/7/70/MKTBox.jpg> .
+<http://dbpedia.org/resource/Mortal_Kombat_Trilogy> <http://dbpedia.org/ontology/thumbnail> <http://upload.wikimedia.org/wikipedia/commons/thumb/7/70/MKTBox.jpg/200px-MKTBox.jpg> .
+<http://dbpedia.org/resource/Mortal_Kombat_Trilogy> <http://dbpedia.org/ontology/series> <http://dbpedia.org/resource/Mortal_Kombat> .

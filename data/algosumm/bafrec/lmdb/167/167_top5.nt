@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/film/16986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.linkedmdb.org/resource/movie/film> .
+<http://data.linkedmdb.org/resource/film/16986> <http://data.linkedmdb.org/resource/movie/language> <http://www.lingvoj.org/lingvo/en> .
+<http://data.linkedmdb.org/resource/film/16986> <http://data.linkedmdb.org/resource/movie/film_art_director> <http://data.linkedmdb.org/resource/film_art_director/4> .
+<http://data.linkedmdb.org/resource/director/8590> <http://xmlns.com/foaf/0.1/made> <http://data.linkedmdb.org/resource/film/16986> .
+<http://data.linkedmdb.org/resource/film/16986> <http://www.w3.org/2000/01/rdf-schema#label> "Anything Goes" .

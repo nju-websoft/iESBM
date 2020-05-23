@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/executiveProducer> <http://dbpedia.org/resource/Baywatch>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/format> <http://dbpedia.org/resource/Monaural>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/property/executiveProducer> <http://dbpedia.org/resource/Douglas_Schwartz>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/creator> <http://dbpedia.org/resource/Gregory_J._Bonann>.
+<http://dbpedia.org/resource/Baywatch> <http://dbpedia.org/ontology/distributor> <http://dbpedia.org/resource/FremantleMedia_Enterprises>.

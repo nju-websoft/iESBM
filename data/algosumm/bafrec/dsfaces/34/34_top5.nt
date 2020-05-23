@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Albert_Einstein> <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Albert_Einstein> <http://dbpedia.org/property/placeOfDeath> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Albert_Einstein> <http://dbpedia.org/property/fields> <http://dbpedia.org/resource/Physics> .
+<http://dbpedia.org/resource/Albert_Einstein> <http://dbpedia.org/property/placeOfBirth> <http://dbpedia.org/resource/German_Empire> .
+<http://dbpedia.org/resource/Albert_Einstein> <http://dbpedia.org/property/children> <http://dbpedia.org/resource/Einstein_family> .

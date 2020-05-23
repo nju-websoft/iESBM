@@ -1,0 +1,17 @@
+<rdf:RDF 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="https://github.com/nju-websoft/iESBM">
+ <dc:title>Interpretive Entity Summarization BenchMark (iESBM)</dc:title>
+ <rdfs:label>Interpretive Entity Summarization BenchMark (iESBM)</rdfs:label>
+ <dc:description>ESBM (short for interpretive Entity Summarization BenchMark) is an interpretive benchmark for evaluating algorithms for entity summarization, aka entity summarizers.</dc:description>
+<dcterms:license rdf:resouroce="https://opendatacommons.org/licenses/by/1-0/index.html" />
+<dcterms:modified>2020-05-20</dcterms:modified>
+<dc:creator rdf:resource="http://ws.nju.edu.cn/people/qxliu"/>
+<dc:creator rdf:resource="http://ws.nju.edu.cn/people/gcheng"/>
+  <dc:publisher rdf:resource="http://ws.nju.edu.cn/" />
+</rdf:Description>
+</rdf:RDF>

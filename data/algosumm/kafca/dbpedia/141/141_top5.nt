@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://dbpedia.org/ontology/activeYearsEndDate> "1863-03-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:People_from_Morrisville,_New_York> .
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:1820_births> .
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://dbpedia.org/ontology/birthDate> "1820-06-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/A._Scott_Sloan> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Wisconsin_Republicans> .

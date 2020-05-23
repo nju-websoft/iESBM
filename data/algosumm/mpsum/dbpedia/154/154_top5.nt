@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Mike_Fratello> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/North_Haledon,_New_Jersey> .
+<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://xmlns.com/foaf/0.1/name> "Borough of North Haledon"@en .
+<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://dbpedia.org/ontology/type> <http://dbpedia.org/resource/Borough_(New_Jersey)> .
+<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://dbpedia.org/ontology/leaderTitle> "Clerk"@en .
+<http://dbpedia.org/resource/North_Haledon,_New_Jersey> <http://dbpedia.org/ontology/populationDensity> "940.8537399362322"^^<http://www.w3.org/2001/XMLSchema#double> .

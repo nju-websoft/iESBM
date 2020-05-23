@@ -1,0 +1,5 @@
+<http://data.linkedmdb.org/resource/film/41408> <http://www.w3.org/2000/01/rdf-schema#label> "The Spiral Staircase" .
+<http://data.linkedmdb.org/resource/film/41408> <http://purl.org/dc/terms/title> "The Spiral Staircase" .
+<http://data.linkedmdb.org/resource/film/41408> <http://data.linkedmdb.org/resource/movie/writer> <http://data.linkedmdb.org/resource/writer/16174> .
+<http://data.linkedmdb.org/resource/film/41408> <http://purl.org/dc/terms/date> "1946-02-06" .
+<http://data.linkedmdb.org/resource/film/41408> <http://data.linkedmdb.org/resource/movie/initial_release_date> "1946-02-06" .

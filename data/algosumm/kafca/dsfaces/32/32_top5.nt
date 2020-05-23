@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Aladdin_(1992_Disney_film)> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Aladdin_(1992_Disney_film)> .
+<http://dbpedia.org/resource/Aladdin_(1992_Disney_film)> <http://dbpedia.org/ontology/thumbnail> <http://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Aladdinposter.jpg/200px-Aladdinposter.jpg> .
+<http://dbpedia.org/resource/Aladdin_(1992_Disney_film)> <http://dbpedia.org/property/title> <http://dbpedia.org/resource/Academy_Award_for_Best_Original_Song> .
+<http://dbpedia.org/resource/Aladdin_(1992_Disney_film)> <http://dbpedia.org/property/music> <http://dbpedia.org/resource/Alan_Menken> .
+<http://dbpedia.org/resource/Aladdin_(1992_Disney_film)> <http://dbpedia.org/ontology/musicComposer> <http://dbpedia.org/resource/Alan_Menken> .

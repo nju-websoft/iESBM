@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Intensive_Care_Medicine_(journal)> <http://dbpedia.org/ontology/publisher> <http://dbpedia.org/resource/Springer_Science+Business_Media> .
+<http://dbpedia.org/resource/Intensive_Care_Medicine_(journal)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Springer_Science+Business_Media_academic_journals> .
+<http://dbpedia.org/resource/Intensive_Care_Medicine_(journal)> <http://dbpedia.org/ontology/firstPublicationYear> "1975"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Intensive_Care_Medicine_(journal)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Work> .
+<http://dbpedia.org/resource/Intensive_Care_Medicine_(journal)> <http://dbpedia.org/ontology/coden> "ICMED9" .

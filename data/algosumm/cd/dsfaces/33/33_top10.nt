@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Walt_Disney> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Walt_Disney?oldid=545713691>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Walt_Disney>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/thumbnail> <http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Walt_disney_portrait.jpg/200px-Walt_disney_portrait.jpg>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/awards> <http://dbpedia.org/resource/Golden_Globe_Cecil_B._DeMille_Award>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/after> <http://dbpedia.org/resource/Jimmy_MacDonald_(sound_effects_artist)>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Hermosa,_Chicago>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/child> <http://dbpedia.org/resource/Diane_Marie_Disney>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/education> <http://dbpedia.org/resource/List_of_schools_in_Chicago_Public_Schools>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/parent> <http://dbpedia.org/resource/Flora_Call_Disney>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/religion> <http://dbpedia.org/resource/Congregationalist>.

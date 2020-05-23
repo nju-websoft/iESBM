@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Friends> <http://dbpedia.org/property/website> <http://warnervideo.com/friends15/> .
+<http://dbpedia.org/resource/Friends> <http://dbpedia.org/property/hasPhotoCollection> <http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Friends> .
+<http://dbpedia.org/resource/Friends> <http://xmlns.com/foaf/0.1/homepage> <http://warnervideo.com/friends15/> .
+<http://dbpedia.org/resource/Friends> <http://dbpedia.org/ontology/openingTheme> <http://dbpedia.org/resource/I'll_Be_There_for_You_(The_Rembrandts_song)> .
+<http://dbpedia.org/resource/Friends> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://en.wikipedia.org/wiki/Friends?oldid=547882844> .

@@ -1,0 +1,10 @@
+16	http://dbpedia.org/resource/Argo_(2012_film)
+21	http://dbpedia.org/resource/England
+17	http://dbpedia.org/resource/Manchester_City_F.C.
+11	http://dbpedia.org/resource/Rice_University
+37	http://dbpedia.org/resource/(What_Is)_Love%3F
+45	http://dbpedia.org/resource/Lexus
+41	http://dbpedia.org/resource/Nile
+40	http://dbpedia.org/resource/Norway
+26	http://dbpedia.org/resource/Reign_of_Fire_(film)
+28	http://dbpedia.org/resource/Seychelles

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Argo_(2012_film)> <http://dbpedia.org/property/music> <http://dbpedia.org/resource/Alexandre_Desplat> .
+<http://dbpedia.org/resource/Argo_(2012_film)> <http://dbpedia.org/ontology/musicComposer> <http://dbpedia.org/resource/Alexandre_Desplat> .
+<http://dbpedia.org/resource/Argo_(2012_film)> <http://dbpedia.org/property/screenplay> <http://dbpedia.org/resource/Chris_Terrio> .
+<http://dbpedia.org/resource/Argo_(2012_film)> <http://dbpedia.org/ontology/writer> <http://dbpedia.org/resource/Chris_Terrio> .
+<http://dbpedia.org/resource/Argo_(2012_film)> <http://dbpedia.org/ontology/editing> <http://dbpedia.org/resource/William_Goldenberg> .

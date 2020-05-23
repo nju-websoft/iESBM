@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/vicePresident> <http://dbpedia.org/resource/Joe_Biden> .
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/spouse> <http://dbpedia.org/resource/Michelle_Obama> .
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/George_W._Bush> .
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/Roland_Burris> .
+<http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/residence> <http://dbpedia.org/resource/White_House> .

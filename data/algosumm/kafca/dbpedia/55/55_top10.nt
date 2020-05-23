@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://dbpedia.org/ontology/influencedBy> <http://dbpedia.org/resource/Ellery_Queen> .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://dbpedia.org/ontology/activeYearsStartYear> "1996"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://xmlns.com/foaf/0.1/homepage> <http://www001.upp.so-net.ne.jp/mori/index.html> .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://dbpedia.org/ontology/birthDate> "1957-12-07"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://www.w3.org/2000/01/rdf-schema#label> "Hiroshi Mori (writer)"@en .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Mephisto_Prize> .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Mystery_fiction> .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/JapaneseMysteryWriters> .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Japanese_mystery_writers> .
+<http://dbpedia.org/resource/Hiroshi_Mori_(writer)> <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:People_from_Aichi_Prefecture> .

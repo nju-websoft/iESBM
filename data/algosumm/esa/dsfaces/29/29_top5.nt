@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Friends> <http://dbpedia.org/ontology/company> <http://dbpedia.org/resource/Bright/Kauffman/Crane_Productions> .
+<http://dbpedia.org/resource/Friends> <http://dbpedia.org/ontology/company> <http://dbpedia.org/resource/Warner_Bros._Television> .
+<http://dbpedia.org/resource/Friends> <http://dbpedia.org/property/company> <http://dbpedia.org/resource/Bright/Kauffman/Crane_Productions> .
+<http://dbpedia.org/resource/Friends> <http://xmlns.com/foaf/0.1/homepage> <http://warnervideo.com/friends15/> .
+<http://dbpedia.org/resource/Friends> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Friends> .

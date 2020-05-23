@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Glass_Palace_Chronicle> <http://dbpedia.org/ontology/translator> <http://dbpedia.org/resource/Pe_Maung_Tin> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/Bachelor_of_Arts> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/Master_of_Arts> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/University_of_Calcutta> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/University_of_Yangon> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/deathDate> "1973-03-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/relative> <http://dbpedia.org/resource/Tee_Tee_Luce> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://xmlns.com/foaf/0.1/depiction> <http://commons.wikimedia.org/wiki/Special:FilePath/Pe_Maung_Tin.jpg> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://xmlns.com/foaf/0.1/name> "Pe Maung Tin"@en .
+<http://dbpedia.org/resource/Tee_Tee_Luce> <http://dbpedia.org/ontology/relative> <http://dbpedia.org/resource/Pe_Maung_Tin> .

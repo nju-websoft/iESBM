@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Candle_in_the_Wind>.
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/property/fromAlbum> <http://dbpedia.org/resource/Goodbye_Yellow_Brick_Road>.
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/ontology/subsequentWork> <http://dbpedia.org/resource/Bennie_and_the_Jets>.
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/ontology/previousWork> <http://dbpedia.org/resource/Step_into_Christmas>.
+<http://dbpedia.org/resource/Candle_in_the_Wind> <http://dbpedia.org/property/label> <http://dbpedia.org/resource/DJM_Records>.

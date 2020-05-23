@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/United_States> .
+<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/property/restingplace> <http://dbpedia.org/resource/Seattle> .
+<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/China> .
+<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/ontology/restingPlace> <http://dbpedia.org/resource/Seattle> .
+<http://dbpedia.org/resource/Bruce_Lee> <http://dbpedia.org/property/ancestry> <http://dbpedia.org/resource/China> .

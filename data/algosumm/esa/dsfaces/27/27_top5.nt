@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Teen_drama> .
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Brian_Austin_Green> .
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Carol_Potter_(actress)> .
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Daniel_Cosgrove> .
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Beverly_Hills,_90210> .

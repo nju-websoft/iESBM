@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/University_of_Calcutta> .
+<http://dbpedia.org/resource/Glass_Palace_Chronicle> <http://dbpedia.org/ontology/translator> <http://dbpedia.org/resource/Pe_Maung_Tin> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Yangon_Region> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://dbpedia.org/ontology/almaMater> <http://dbpedia.org/resource/Bachelor_of_Arts> .
+<http://dbpedia.org/resource/Pe_Maung_Tin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Writer110794014> .

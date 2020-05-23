@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/property/establishedEvent> <http://dbpedia.org/resource/World_War_II> .
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/ontology/leaderName> <http://dbpedia.org/resource/Bronis%C5%82aw_Komorowski> .
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/Polish_language> .
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/property/languages> <http://dbpedia.org/resource/Polish_language> .
+<http://dbpedia.org/resource/Poland> <http://dbpedia.org/ontology/capital> <http://dbpedia.org/resource/Warsaw> .

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Joe_E._Tata> .
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Joe_E._Tata> .
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/Hilary_Swank> .
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/property/starring> <http://dbpedia.org/resource/Hilary_Swank> .
+<http://dbpedia.org/resource/Beverly_Hills,_90210> <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Teen_drama> .

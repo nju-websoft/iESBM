@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Stara_Bučka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Slovenia> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://dbpedia.org/ontology/thumbnail> <http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Slovenia.svg?width=300> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://dbpedia.org/ontology/isPartOf> <http://dbpedia.org/resource/Lower_Carniola> .
+<http://dbpedia.org/resource/Stara_Bučka> <http://www.w3.org/2000/01/rdf-schema#label> "Stara Bučka"@en .

@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/property/capital> <http://dbpedia.org/resource/Victoria,_Seychelles>.
+<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/property/governmentType> <http://dbpedia.org/resource/Republic>.
+<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/property/source> <http://dbpedia.org/resource/World_Meteorological_Organization>.
+<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/ontology/leaderName> <http://dbpedia.org/resource/James_Michel>.
+<http://dbpedia.org/resource/Seychelles> <http://dbpedia.org/ontology/largestCity> <http://dbpedia.org/resource/Capital_city>.

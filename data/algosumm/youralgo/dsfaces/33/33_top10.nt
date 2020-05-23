@@ -1,0 +1,10 @@
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/after> <http://dbpedia.org/resource/Jimmy_MacDonald_(sound_effects_artist)>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Golden_Globe_Cecil_B._DeMille_Award>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Cecil_B._DeMille_Award>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/awards> <http://dbpedia.org/resource/Golden_Globe_Cecil_B._DeMille_Award>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/awards> <http://dbpedia.org/resource/Cecil_B._DeMille_Award>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Hermosa,_Chicago>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Chicago,_Illinois>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/child> <http://dbpedia.org/resource/Diane_Marie_Disney>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/ontology/child> <http://dbpedia.org/resource/Sharon_Mae_Disney>.
+<http://dbpedia.org/resource/Walt_Disney> <http://dbpedia.org/property/children> <http://dbpedia.org/resource/Sharon_Mae_Disney>.
