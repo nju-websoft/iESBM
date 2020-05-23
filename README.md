@@ -16,7 +16,7 @@ iESBM: an interpretative Entity Summarization Benchmark on Multiple Datasets.
 * <code>FED</code>: 50 DBpedia entities from [FACES system](http://wiki.knoesis.org/index.php/FACES)
 
 # Usage
-## A Quick Start
+## Quick Start
 Suppose you want to evaluate your algorithm named 'youralgo', and its summaries generated for entities from the three datasets are in directory 'data/algosumm/youralgo/'.
 Run the following command:
 <pre>
