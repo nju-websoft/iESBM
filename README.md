@@ -30,7 +30,7 @@ Run the following command:
 python iesbm_eval.py -mode FSR -algo_name youralgo
 </pre>
 Evaluation results will be outputted to directory 'data/out/out_youralgo/'.
-See the next section for detailed configurations.
+See the next section for details.
 
 ## Evaluate Your Results
 The Evaluator can be used to evaluate any general-purpose entity summarizer through the following process:
@@ -134,6 +134,8 @@ You are encouraged to submit the results of your entity summarizer by contacting
 * <code>Notes</code>: brief description of your entity summarizer (e.g., name of the summarizer, citation information, parameter settings).
 
 ## FER Results
+FER Results from ground-truth summaries are presented in Table 1 and Table 2. 
+Detailed results of FER are available, see [in_ds_fer/](https://github.com/nju-websoft/iESBM/tree/master/data/in/in_ds_fer).
 
 <strong>Table 1. FER on each dataset for k=5.</strong>
 <table class="tablesorter" id="tb_fer_top5">
@@ -178,7 +180,7 @@ You are encouraged to submit the results of your entity summarizer by contacting
 
 ## FSR Results
 
-FSR results for several selected entity summarizers are presented in the following tables. Their output files are also available (runs).
+FSR results for several selected entity summarizers are presented in the following tables. Their output files are also available ([runs.zip](https://github.com/nju-websoft/iESBM/blob/master/data/runs.zip)).
 
 <strong>Table 3. FSR of selected entity summarizers on ESBM-D for k=5.</strong><table class="tablesorter" id="tb_fsr_dbpedia_top5">
 <thead>
