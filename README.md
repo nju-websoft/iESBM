@@ -111,16 +111,16 @@ First, implement a new subclass of <code>f_base.Feature</code> and name this cla
 In this class, define the method to get feature score for an entity in function <code>self._get_score_by_sscore()</code>.
 
 Then, open [f_imp.py](https://github.com/nju-websoft/iESBM/blob/master/code/f_imp.py), add a new <code>elif</code>-statement to function <code>get_feature_by_name()</code>, to return an object of the newly defined class:
-```python
+<pre>
 elif fname=='${fname}'
     return F_${fname}(ds_name, fpath=fpath)
-```
+</pre>
 
 
 Run <code>iesbm_gen.py</code> to generate FER files for this new feature:
-```python
+<pre>
 python iesbm_gen.py ${feature_name}
-```
+</pre>
 
 Finally, this new feature can be used by setting parameter '-feature_name ${feature_name}' when running <code>iesbm_eval.py</code>
 
