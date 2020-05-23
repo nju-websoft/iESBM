@@ -1,5 +1,9 @@
 # iESBM Benchmark
+https://github.com/nju-websoft/iESBM
+
 Last update: 2020-05-20
+
+License: [ODC Attribution License (ODC-By)](https://opendatacommons.org/licenses/by/1-0/index.html)
 
 iESBM: an interpretative Entity Summarization Benchmark on Multiple Datasets.
 
@@ -15,7 +19,8 @@ iESBM: an interpretative Entity Summarization Benchmark on Multiple Datasets.
 * <code>ESBM-L</code>: 50 LinkedMDB entities from [ESBM v1.2](https://w3id.org/esbm/)
 * <code>FED</code>: 50 DBpedia entities from [FACES system](http://wiki.knoesis.org/index.php/FACES)
 
-# Usage
+# Guidelines
+
 ## Quick Start
 Suppose you want to evaluate your algorithm named 'youralgo', and its summaries generated for entities from the three datasets are in directory 'data/algosumm/youralgo/'.
 Run the following command:
