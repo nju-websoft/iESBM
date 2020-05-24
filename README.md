@@ -107,7 +107,7 @@ python iesbm_gen.py ${fname}
 Finally, this new feature can be used by setting parameter '-feature_name ${feature_name}' when running <code>iesbm_eval.py</code>
 
 ### Add Summary-level Feature
-First, implement a new subclass of <code>f_base.Feature</code> and name this class as 'F_${fname}' (see class F_DoP, F_DoV in [f_imp.py]() as example).
+First, implement a new subclass of <code>f_base.Feature</code> and name this class as 'F_${fname}' (see class F_DoP, F_DoV in [f_imp.py](https://github.com/nju-websoft/iESBM/blob/master/code/f_imp.py) as example).
 In this class, define the method to get feature score for an entity in function <code>self._get_score_by_sscore()</code>.
 
 Then, open [f_imp.py](https://github.com/nju-websoft/iESBM/blob/master/code/f_imp.py), add a new <code>elif</code>-statement to function <code>get_feature_by_name()</code>, to return an object of the newly defined class:
