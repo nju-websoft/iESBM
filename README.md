@@ -27,7 +27,7 @@ See [in_ds_raw](https://github.com/nju-websoft/iESBM/tree/master/data/in/in_ds_r
 Suppose you want to evaluate your algorithm named 'youralgo', and its summaries generated for entities from the three datasets are in directory 'data/algosumm/youralgo/'.
 Run the following command:
 <pre>
-python iesbm_eval.py -mode FSR -algo_name youralgo
+python code/iesbm_eval.py -mode FSR -algo_name youralgo
 </pre>
 Evaluation results will be outputted to directory 'data/out/out_youralgo/'.
 See the next section for details.
@@ -66,7 +66,7 @@ where
 ### Run the Evaluator
 Please put the folder ${algo_name}/ under directory 'data/algosumm/', and run [iesbm_eval.py](https://github.com/nju-websoft/iESBM/blob/master/code/iesbm_eval.py) by the following command:
 <pre>
-python iesbm_eval.py -algo_name ${algo_name} [-feature_name ${feature_name} -ds_name ${ds_name} -topk ${topk} -mode ${mode}]
+python code/iesbm_eval.py -algo_name ${algo_name} [-feature_name ${feature_name} -ds_name ${ds_name} -topk ${topk} -mode ${mode}]
 </pre>
 where parameter <code>-algo_name</code> is necessary when you want to get 'FSR' results of an algorithm, and optional parameters:
  * <code>-feature_name</code> accept values: 'LFoP', 'GFoP', 'GFoV', 'IoPV', 'DoP' and 'DoV';
@@ -115,7 +115,7 @@ elif fname=='${fname}'
 
 Run [iesbm_gen.py](https://github.com/nju-websoft/iESBM/blob/master/code/iesbm_gen.py) to generate FER files for this new feature:
 <pre>
-python iesbm_gen.py ${fname}
+python code/iesbm_gen.py ${fname}
 </pre>
 Each line of the FER file contains the following items (splitted by tab, see [FER_GFoP_dbpedia_top5.txt](https://github.com/nju-websoft/iESBM/blob/master/data/in/in_ds_fer/FER_GFoP_dbpedia_top5.txt) as example) 
 <pre>
@@ -140,7 +140,7 @@ ${eid}, ${FER_of_e}, ${average_score_of_golds}, ${score_of_desc}
 
 Run <code>iesbm_gen.py</code> to generate FER files for this new feature:
 <pre>
-python iesbm_gen.py ${feature_name}
+python code/iesbm_gen.py ${feature_name}
 </pre>
 
 Finally, this new feature can be used by setting parameter '-feature_name ${feature_name}' when running <code>iesbm_eval.py</code>
