@@ -33,7 +33,21 @@ Evaluation results will be outputted to directory 'data/out/out_youralgo/'.
 See the next section for details.
 
 ## Evaluate Your Results
-The Evaluator can be used to evaluate any general-purpose entity summarizer through the following process:
+The evaluator can be used to evaluate any general-purpose entity summarizer with the following steps:
+
+### Installation
+
+#### Environment Requirements
+* Python 3.x (tested on Python 3.6)
+* Numpy
+
+#### Installation
+Install the evaluator by firstly dowloading the project, and then installing required packages with the following commands: 
+<pre>
+git clone git@github.com:nju-websoft/iESBM.git iESBM
+cd iESBM
+pip install -e .
+</pre>
 
 ### Required Input Format
 To evaluate your algorithm, please generate summaries for entities from the three datasets and organize the directory of summaries as follows (see [youralgo](https://github.com/nju-websoft/iESBM/tree/master/data/algosumm/youralgo) as example):
@@ -72,7 +86,7 @@ and these ids will be printed files in directory <code>out_${algo_name}/algo_par
 The evaluator will output the evaluation results for summaries to file <code>out_${algo_name}/algo_metrics/FSR\_${feature_name}\_${ds_name}\_${topk}.txt</code>.
 Each line in the file includes the following items (items are seperated by tab, see [FSR_GFoP_dbpedia_top5.txt](https://github.com/nju-websoft/iESBM/blob/master/data/out/out_youralgo/algo_metrics/FSR_GFoP_dbpedia_top5.txt) as example):
 ```
-${eid}, ${FSR}
+${eid}, ${FSR_of_e}
 ```
 (2) Print statistical results:
  
@@ -119,7 +133,10 @@ Then, open [f_imp.py](https://github.com/nju-websoft/iESBM/blob/master/code/f_im
 elif fname=='${fname}'
     return F_${fname}(ds_name, fpath=fpath)
 </pre>
-
+Each line of the FER file contains the following items (splitted by tab, see [FER_DoP_dbpedia_top5.txt](https://github.com/nju-websoft/iESBM/blob/master/data/in/in_ds_fer/FER_DoP_dbpedia_top5.txt) as example) 
+<pre>
+${eid}, ${FER_of_e}, ${average_score_of_golds}, ${score_of_desc}
+</pre>
 
 Run <code>iesbm_gen.py</code> to generate FER files for this new feature:
 <pre>
