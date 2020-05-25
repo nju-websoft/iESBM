@@ -69,14 +69,14 @@ and these ids will be printed files in directory <code>out_${algo_name}/algo_par
 
 (1) Generate an output file:
 
-The evaluator will output the evaluation results for summaries to file <code>out_${algo_name}/algo_metrics/${feature_name}\_${ds_name}\_${topk}.txt</code>.
-Each line in the file includs the following items (items are seperated by tab):
+The evaluator will output the evaluation results for summaries to file <code>out_${algo_name}/algo_metrics/FSR\_${feature_name}\_${ds_name}\_${topk}.txt</code>.
+Each line in the file includes the following items (items are seperated by tab, see [FSR_GFoP_dbpedia_top5.txt](https://github.com/nju-websoft/iESBM/blob/master/data/out/out_youralgo/algo_metrics/FSR_GFoP_dbpedia_top5.txt) as example):
 ```
-${eid}, ${feature_score}, ${FSR}
+${eid}, ${FSR}
 ```
 (2) Print statistical results:
  
-Statistical information of the evaluation results will be printed to the concole, including the following items:
+Statistical information of the evaluation results will be printed to the console, including the following items:
 ```
 ${feature_name}, ${ds_name}, ${topk}, ${mean_FSR}, ${std_FSR}, ${significance_with_FER}
 ```
