@@ -35,8 +35,8 @@ def gen_fer(fname, ds_name, topk):
 		#=== 3. compute fer
 		e_fer = np.mean(ugscore_list)/desc_score
 		fer_list.append(e_fer)
-		# line_list.append('{}\t{}\t{}\t{}\n'.format(eid, e_fer,np.mean(ugscore_list),desc_score)) # for debut
-		line_list.append('{}\t{}\n'.format(eid, e_fer))
+		line_list.append('{}\t{}\t{}\t{}\n'.format(eid, e_fer,np.mean(ugscore_list),desc_score)) # for debut
+		# line_list.append('{}\t{}\n'.format(eid, e_fer))
 
 	#==== compute sig
 	fer_sig_with1 = get_sig_with_1(fer_list, with_latex=False) # t, p

@@ -80,6 +80,8 @@ def load_eid_fer_dict(fname, ds_name, topk):
 			items = line.strip().split('\t')
 			eid = int(items[0])
 			fer = float(items[1])
+			# ugscore = float(items[2])
+			# descsocre = float(items[3])
 			eid_fer_dict[eid]=fer
 	return eid_fer_dict;
 

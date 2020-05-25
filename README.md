@@ -103,6 +103,10 @@ Run [iesbm_gen.py](https://github.com/nju-websoft/iESBM/blob/master/code/iesbm_g
 <pre>
 python iesbm_gen.py ${fname}
 </pre>
+Each line of the FER file contains the following items (splitted by tab, see [FER_GFoP_dbpedia_top5.txt](https://github.com/nju-websoft/iESBM/blob/master/data/in/in_ds_fer/FER_GFoP_dbpedia_top5.txt) as example) 
+<pre>
+${eid}, ${FER_of_e}, ${average_score_of_golds}, ${score_of_desc}
+</pre>
 
 Finally, this new feature can be used by setting parameter '-feature_name ${feature_name}' when running <code>iesbm_eval.py</code>
 
