@@ -7,6 +7,8 @@
 import os
 import numpy as np
 from enum import Enum
+from scipy import stats
+from scipy.stats import ttest_1samp
 
 CODE_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.dirname(CODE_DIR)
@@ -86,8 +88,6 @@ def load_eid_fer_dict(fname, ds_name, topk):
 	return eid_fer_dict;
 
 
-from scipy import stats
-from scipy.stats import ttest_1samp
 def get_sig_with_1(ratio_items, with_latex=True):
 	'''
 	two-sided one sample T-test for mean=1:

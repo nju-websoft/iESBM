@@ -40,6 +40,7 @@ The evaluator can be used to evaluate any general-purpose entity summarizer with
 #### Environment Requirements
 * Python 3.x (tested on Python 3.6)
 * Numpy
+* Scipy
 
 #### Installation
 Install the evaluator by firstly dowloading the project, and then installing required packages with the following commands: 
@@ -100,8 +101,8 @@ Meanwhile, these results will be outputted to file <code>out_${algo_name}/result
 ## Add New Feature
 You can add customized features to the evaluator according to following process: 
 ### Add Triple-level Feature
-Firstly, compute feature score for each triple in dataset ${ds_name}, and output these information to a file named '${fname}_${ds_name}.txt' (where ${fname} is the name of your new feature, e.g. 'GFoV').
-In this file, with each line contains the following items (items are splitted by tab, see [GFoP_dbpedia.txt](https://github.com/nju-websoft/iESBM/blob/master/data/in/in_ds_feature/GFoP_dbpedia.txt) as example):
+Firstly, compute feature score for each triple in dataset ${ds_name}, and output these information to a file named '${feature_name}_${ds_name}.txt' (where ${feature_name} is the name of your new feature, e.g. 'GFoP').
+In this file, each line contains the following items (items are splitted by tab, see [GFoP_dbpedia.txt](https://github.com/nju-websoft/iESBM/blob/master/data/in/in_ds_feature/GFoP_dbpedia.txt) as example):
 <pre>
 ${tid}, ${tscore}
 </pre>
@@ -109,13 +110,13 @@ Put this file to directory <code>in/in_ds_feature/</code>.
 
 Open [f_imp.py](https://github.com/nju-websoft/iESBM/blob/master/code/f_imp.py), add a new <code>elif</code> statement to the function <code>get_feature_by_name()</code>:
 <pre>
-elif fname=='${fname}'
+elif fname=='${feature_name}'
     return Feature(ds_name, fname, FType.F_Triple, fpath)
 </pre>
 
 Run [iesbm_gen.py](https://github.com/nju-websoft/iESBM/blob/master/code/iesbm_gen.py) to generate FER files for this new feature:
 <pre>
-python code/iesbm_gen.py ${fname}
+python code/iesbm_gen.py ${feature_name}
 </pre>
 Each line of the FER file contains the following items (splitted by tab, see [FER_GFoP_dbpedia_top5.txt](https://github.com/nju-websoft/iESBM/blob/master/data/in/in_ds_fer/FER_GFoP_dbpedia_top5.txt) as example) 
 <pre>
@@ -125,13 +126,13 @@ ${eid}, ${FER_of_e}, ${average_score_of_golds}, ${score_of_desc}
 Finally, this new feature can be used by setting parameter '-feature_name ${feature_name}' when running <code>iesbm_eval.py</code>
 
 ### Add Summary-level Feature
-First, implement a new subclass of <code>f_base.Feature</code> and name this class as 'F_${fname}' (see class F_DoP, F_DoV in [f_imp.py](https://github.com/nju-websoft/iESBM/blob/master/code/f_imp.py) as example).
+First, implement a new subclass of <code>f_base.Feature</code> and name this class as 'F_${feature_name}' (see class F_DoP, F_DoV in [f_imp.py](https://github.com/nju-websoft/iESBM/blob/master/code/f_imp.py) as example).
 In this class, define the method to get feature score for an entity in function <code>self._get_score_by_sscore()</code>.
 
 Then, open [f_imp.py](https://github.com/nju-websoft/iESBM/blob/master/code/f_imp.py), add a new <code>elif</code>-statement to function <code>get_feature_by_name()</code>, to return an object of the newly defined class:
 <pre>
-elif fname=='${fname}'
-    return F_${fname}(ds_name, fpath=fpath)
+elif fname=='${feature_name}'
+    return F_${feature_name}(ds_name, fpath=fpath)
 </pre>
 Each line of the FER file contains the following items (splitted by tab, see [FER_DoP_dbpedia_top5.txt](https://github.com/nju-websoft/iESBM/blob/master/data/in/in_ds_fer/FER_DoP_dbpedia_top5.txt) as example) 
 <pre>

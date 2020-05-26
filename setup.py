@@ -12,7 +12,7 @@ VERSION = '1.0'
 PACKAGES = setuptools.find_packages(where='code')
 META_PATH = os.path.join('code', MODULE, '__init__.py')
 KEYWORDS = ['Knowledge Graph', 'Entity summarization', 'Benchmarking']
-INSTALL_REQUIRES = ['numpy']
+INSTALL_REQUIRES = ['numpy', 'scipy']
 if __name__ == '__main__':
 	setuptools.setup(
 		name=MODULE,
